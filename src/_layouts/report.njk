@@ -1,44 +1,51 @@
 ---
 layout: default
 ---
+<article class="space-y-6">
+  <header>
+    <h2 class="text-2xl font-semibold">{{ title }}</h2>
+    <p class="text-sm text-gray-600">
+      {{ date | date("yyyy-MM-dd") }}
+      {% if resource_type %} — {{ resource_type }}{% endif %}
+    </p>
 
-<article class="report">
-    <header>
-        <h1>{{ title }}</h1>
-        <p>
-            <strong>Published:</strong>
-            {{ date | date("yyyy-MM-dd") }}</p>
-        {% if authors %}
-            <p>
-                <strong>Authors:</strong>
-                {{ authors | join(", ") }}</p>
-        {% endif %}
-    </header>
-
-    {% if thumbnail %}
-        <img src="{{ thumbnail }}" alt="{{ title }} thumbnail" width="400"/>
+    {% if authors %}
+      <p class="text-sm text-gray-700">
+        <strong>Authors:</strong> {{ authors | join(", ") }}
+      </p>
     {% endif %}
 
-    <section class="report-description">
-        {{ content | safe }}
+    {% if thumbnail %}
+      <img
+        src="{{ thumbnail }}"
+        alt="Thumbnail for {{ title }}"
+        class="mt-4 w-full max-w-md rounded shadow"
+      />
+    {% endif %}
+  </header>
+
+  {% if content %}
+    <section class="prose max-w-none">
+      {{ content | safe }}
     </section>
-
-<section class="report-meta">
-  {% if doi %}
-    <p><strong>DOI:</strong> <a href="https://doi.org/{{ doi }}">{{ doi }}</a></p>
   {% endif %}
 
-  {% if url %}
-    <p><strong>Zenodo URL:</strong> <a href="{{ url }}">{{ url }}</a></p>
-  {% endif %}
+  <section class="text-sm text-gray-700 border-t pt-4 space-y-1">
+    {% if doi %}
+      <p><strong>DOI:</strong> <a href="https://doi.org/{{ doi }}" class="text-blue-600 hover:underline">{{ doi }}</a></p>
+    {% endif %}
 
-  {% if files %}
-    <p><strong>Files:</strong> <a href="{{ files }}">Download</a></p>
-  {% endif %}
+    {% if url %}
+      <p><strong>Zenodo URL:</strong> <a href="{{ url }}" class="text-blue-600 hover:underline">{{ url }}</a></p>
+    {% endif %}
 
-  {% if stats %}
-    <p><strong>Views:</strong> {{ stats.views | default(0) }}</p>
-    <p><strong>Downloads:</strong> {{ stats.downloads | default(0) }}</p>
-  {% endif %}
-</section>
+    {% if files %}
+      <p><strong>Download:</strong> <a href="{{ files }}" class="text-blue-600 hover:underline">Files</a></p>
+    {% endif %}
+
+    {% if stats %}
+      <p><strong>Views:</strong> {{ stats.views | default(0) }}</p>
+      <p><strong>Downloads:</strong> {{ stats.downloads | default(0) }}</p>
+    {% endif %}
+  </section>
 </article>

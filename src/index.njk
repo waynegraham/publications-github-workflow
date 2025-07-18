@@ -2,41 +2,62 @@
 title: Home
 layout: default
 ---
-<h2>Reports</h2>
 
-<h2>Latest Report</h2>
+<p>Total reports: {{ pagedReports | length }}</p>
 
 {% set latest = collections.reports | first %}
 
-{% if latest %}
-  <article>
-    <h3><a href="{{ latest.url }}">{{ latest.data.title }}</a></h3>
-    <p><strong>Date:</strong> {{ latest.data.date | date("yyyy-MM-dd") }}</p>
+<section class="space-y-8">
+  {% if latest %}
+    <article class="border rounded-lg shadow p-6 bg-white">
+      <h2 class="text-2xl font-bold mb-2">
+        <a href="{{ latest.url }}" class="hover:underline">{{ latest.data.title }}</a>
+      </h2>
 
-    {% if latest.data.thumbnail %}
-      <img src="{{ latest.data.thumbnail }}" alt="{{ latest.data.title }} thumbnail" width="300" />
-    {% endif %}
+      <p class="text-sm text-gray-600 mb-4">
+        {{ latest.data.date | date("yyyy-MM-dd") }}
+        {% if latest.data.resource_type %} — {{ latest.data.resource_type }}{% endif %}
+      </p>
 
-    {% if latest.templateContent %}
-      <div>{{ latest.templateContent | safe }}</div>
-    {% endif %}
+      {% if latest.data.thumbnail %}
+        <img
+          src="{{ latest.data.thumbnail }}"
+          alt="Thumbnail for {{ latest.data.title }}"
+          class="w-full max-w-sm rounded-lg shadow mb-4"
+        />
+      {% endif %}
 
-    <p><a href="/reports/">View all reports →</a></p>
-  </article>
-{% else %}
-  <p>No reports found.</p>
-{% endif %}
+      {% if latest.templateContent %}
+        <div class="prose max-w-none">
+          {{ latest.templateContent | safe }}
+        </div>
+      {% endif %}
+    </article>
+  {% else %}
+    <p>No recent reports available.</p>
+  {% endif %}
+</section>
 
-<h3>Browse by Year</h3>
-<ul>
-  {% for year in collections.reportYears %}
-    <li><a href="/reports/year/{{ year }}/">{{ year }}</a></li>
-  {% endfor %}
-</ul>
+<hr class="my-8 border-gray-300" />
 
-<h3>Browse by Resource Type</h3>
-<ul>
-  {% for type in collections.reportTypes %}
-    <li><a href="/reports/type/{{ type | slug }}/">{{ type }}</a></li>
-  {% endfor %}
-</ul>
+<section>
+  <h3 class="text-lg font-semibold mb-2">Browse by Year</h3>
+  <ul class="flex flex-wrap gap-2 mb-6">
+    {% for year in collections.reportYears %}
+      <li>
+        <a href="/reports/year/{{ year }}/" class="px-3 py-1 bg-gray-100 rounded hover:bg-gray-200 text-sm">{{ year }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <h3 class="text-lg font-semibold mb-2">Browse by Resource Type</h3>
+  <ul class="flex flex-wrap gap-2">
+    {% for type in collections.reportTypes %}
+      <li>
+        <a href="/reports/type/{{ type | slug }}/" class="px-3 py-1 bg-gray-100 rounded hover:bg-gray-200 text-sm">
+          {{ type }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</section>

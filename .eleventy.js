@@ -3,7 +3,7 @@ const { DateTime } = require("luxon");
 module.exports = function (eleventyConfig) {
   // Passthrough copy for assets
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
-  
+
   eleventyConfig.addFilter("slug", function (value) {
     if (!value || typeof value !== "string") return "";
     return value
@@ -20,10 +20,11 @@ module.exports = function (eleventyConfig) {
   // Collections
 
   eleventyConfig.addCollection("reports", function (collectionApi) {
-  return collectionApi.getFilteredByGlob("src/reports/*.md").sort((a, b) => {
-    return new Date(b.data.date) - new Date(a.data.date);
+    return collectionApi
+      .getFilteredByTag("reports")
+      .filter((item) => item.data.date)
+      .sort((a, b) => new Date(b.data.date) - new Date(a.data.date));
   });
-});
 
   eleventyConfig.addCollection("reportYears", (collectionApi) => {
     const reports = collectionApi.getFilteredByGlob("src/reports/*.md");
