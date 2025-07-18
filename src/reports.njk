@@ -8,7 +8,7 @@ pagination:
   reverse: false
   addAllPagesToCollections: true
 eleventyComputed:
-  permalink: "{{ pagination.pageNumber == 0 ? 'reports/index.html' : 'reports/' + pagination.pageNumber + '/index.html' }}"
+  permalink: '{% if pagination.pageNumber == 0 %}reports/{% else %}reports/{{ pagination.pageNumber }}/{% endif %}index.html'
 ---
 
 <h1 class="text-2xl font-bold mb-6">All Reports</h1>
@@ -74,12 +74,18 @@ eleventyComputed:
       <a href="{{ pagination.href.previous }}" class="px-3 py-1 bg-gray-100 rounded hover:bg-gray-200">← Previous</a>
     {% endif %}
 
-    {% for page, index in pagination.pages %}
+    {% for page in pagination.pages %}
+      {% set activeClass = "" %}
+      {% if pagination.pageNumber == loop.index0 %}
+        {% set activeClass = "bg-blue-600 text-white" %}
+      {% else %}
+        {% set activeClass = "bg-gray-100 text-gray-800" %}
+      {% endif %}
       <a
-        href="{{ pagination.hrefs[index] }}"
-        class="px-3 py-1 rounded hover:bg-gray-200 {{ pagination.pageNumber == index ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-800' }}"
+        href="{{ pagination.hrefs[loop.index0] }}"
+        class="px-3 py-1 rounded hover:bg-gray-200 {{ activeClass }}"
       >
-        {{ index + 1 }}
+        {{ loop.index }}
       </a>
     {% endfor %}
 

@@ -21,7 +21,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addCollection("reports", function (collectionApi) {
     return collectionApi
-      .getFilteredByTag("reports")
+      .getFilteredByGlob("src/reports/*.md")
       .filter((item) => item.data.date)
       .sort((a, b) => new Date(b.data.date) - new Date(a.data.date));
   });
