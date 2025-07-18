@@ -1,0 +1,21 @@
+{
+  "name": "publications-github",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "zenodo": "node scripts/zenodoReports.cjs",
+    "start": "eleventy --serve",
+    "build": "eleventy",
+    "sync": "pnpm run zenodo && pnpm run build"
+  },
+  "keywords": [],
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.13.1",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  }
+}
