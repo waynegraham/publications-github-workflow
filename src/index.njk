@@ -3,21 +3,40 @@ title: Home
 layout: default
 ---
 <h2>Reports</h2>
+
+<h2>Latest Report</h2>
+
+{% set latest = collections.reports | first %}
+
+{% if latest %}
+  <article>
+    <h3><a href="{{ latest.url }}">{{ latest.data.title }}</a></h3>
+    <p><strong>Date:</strong> {{ latest.data.date | date("yyyy-MM-dd") }}</p>
+
+    {% if latest.data.thumbnail %}
+      <img src="{{ latest.data.thumbnail }}" alt="{{ latest.data.title }} thumbnail" width="300" />
+    {% endif %}
+
+    {% if latest.templateContent %}
+      <div>{{ latest.templateContent | safe }}</div>
+    {% endif %}
+
+    <p><a href="/reports/">View all reports →</a></p>
+  </article>
+{% else %}
+  <p>No reports found.</p>
+{% endif %}
+
+<h3>Browse by Year</h3>
 <ul>
-    {% for report in collections.reports | reverse %}
-        <li>
-            <h3>
-                <a href="{{ report.url }}">{{ report.data.title }}</a>
-            </h3>
-            <p>
-                <strong>Date:</strong>
-                {{ report.data.date | date("yyyy-MM-dd") }}</p>
-            {% if report.data.thumbnail %}
-                <img src="{{ report.data.thumbnail }}" alt="{{ report.data.title }} thumbnail" width="200"/>
-            {% endif %}
-            {% if report.templateContent %}
-                <div>{{ report.templateContent | safe }}</div>
-            {% endif %}
-        </li>
-    {% endfor %}
+  {% for year in collections.reportYears %}
+    <li><a href="/reports/year/{{ year }}/">{{ year }}</a></li>
+  {% endfor %}
+</ul>
+
+<h3>Browse by Resource Type</h3>
+<ul>
+  {% for type in collections.reportTypes %}
+    <li><a href="/reports/type/{{ type | slug }}/">{{ type }}</a></li>
+  {% endfor %}
 </ul>

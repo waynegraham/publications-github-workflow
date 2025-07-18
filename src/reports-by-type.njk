@@ -1,0 +1,19 @@
+---
+pagination:
+  data: collections.reports
+  size: 1000
+  alias: reports
+  filter: report => report.data.resource_type === type
+permalink: "/reports/type/{{ type | slug }}/index.html"
+eleventyComputed:
+  type: "{{ pagination.items[0].data.resource_type }}"
+layout: default.njk
+---
+
+<h2>{{ type }} Reports</h2>
+
+<ul>
+  {% for report in reports %}
+    <li><a href="{{ report.url }}">{{ report.data.title }}</a></li>
+  {% endfor %}
+</ul>

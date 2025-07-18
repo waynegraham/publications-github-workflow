@@ -1,0 +1,19 @@
+---
+pagination:
+  data: collections.reports
+  size: 1000
+  alias: reports
+  filter: report => new Date(report.data.date).getFullYear() === year
+permalink: "/reports/year/{{ year }}/index.html"
+eleventyComputed:
+  year: "{{ pagination.items[0].data.date | date('yyyy') }}"
+layout: default.njk
+---
+
+<h2>Reports from {{ year }}</h2>
+
+<ul>
+  {% for report in reports %}
+    <li><a href="{{ report.url }}">{{ report.data.title }}</a></li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,75 @@
+---
+title: Reports
+layout: default
+pagination:
+  data: collections.reports
+  size: 10
+  alias: pagedReports
+  reverse: false
+permalink: "reports/{{ pagination.pageNumber }}/"
+---
+
+<h1>Reports</h1>
+
+<div class="filters">
+  <label>
+    Year:
+    <select id="filter-year">
+      <option value="all">All</option>
+      {% for year in collections.reportYears %}
+        <option value="{{ year }}">{{ year }}</option>
+      {% endfor %}
+    </select>
+  </label>
+
+  <label>
+    Type:
+    <select id="filter-type">
+      <option value="all">All</option>
+      {% for type in collections.reportTypes %}
+        <option value="{{ type }}">{{ type }}</option>
+      {% endfor %}
+    </select>
+  </label>
+</div>
+
+<ul id="report-list">
+  {% for report in collections.reports %}
+    <li class="report-item"
+        data-year="{{ report.data.date | date('yyyy') }}"
+        data-type="{{ report.data.resource_type }}">
+      <h3><a href="{{ report.url }}">{{ report.data.title }}</a></h3>
+      <p>{{ report.data.date | date("yyyy-MM-dd") }}</p>
+
+      {% if report.data.thumbnail %}
+        <img src="{{ report.data.thumbnail }}" alt="{{ report.data.title }} thumbnail" width="200" />
+      {% endif %}
+
+      {% if report.templateContent %}
+        <div>{{ report.templateContent | safe }}</div>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
+
+<script>
+  const yearFilter = document.getElementById('filter-year');
+  const typeFilter = document.getElementById('filter-type');
+  const reports = document.querySelectorAll('#report-list .report-item');
+
+  function applyFilters() {
+    const selectedYear = yearFilter.value;
+    const selectedType = typeFilter.value;
+
+    reports.forEach(item => {
+      const year = item.dataset.year;
+      const type = item.dataset.type;
+      const matchesYear = selectedYear === 'all' || year === selectedYear;
+      const matchesType = selectedType === 'all' || type === selectedType;
+      item.style.display = (matchesYear && matchesType) ? '' : 'none';
+    });
+  }
+
+  yearFilter.addEventListener('change', applyFilters);
+  typeFilter.addEventListener('change', applyFilters);
+</script>

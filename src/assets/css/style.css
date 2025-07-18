@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+.filters {
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.report-item {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1rem;
+}
