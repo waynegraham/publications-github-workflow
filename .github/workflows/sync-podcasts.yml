@@ -1,0 +1,11 @@
+name: Sync Podcasts
+
+on:
+    workflow_dispatch:
+
+jobs:
+    fetch-and-build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout Repo
+              uses: actions/checkout@v4

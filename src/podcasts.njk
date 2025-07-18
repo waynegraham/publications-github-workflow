@@ -1,0 +1,54 @@
+---
+title: Podcast Episodes
+layout: default.njk
+pagination:
+  data: collections.podcasts
+  size: 10
+  alias: pagedPodcasts
+  reverse: true
+  addAllPagesToCollections: true
+eleventyComputed:
+  permalink: "{{ pagination.pageNumber == 0 ? 'podcasts/index.html' : 'podcasts/' + pagination.pageNumber + '/index.html' }}"
+---
+
+<h1 class="text-2xl font-bold mb-6">Podcast Episodes</h1>
+
+<ul class="space-y-6">
+  {% for episode in pagedPodcasts %}
+    <li class="border-b pb-4">
+      <h2 class="text-lg font-semibold">
+        <a href="{{ episode.url }}" class="hover:underline">
+          {{ episode.data.title }}
+        </a>
+      </h2>
+      <p class="text-sm text-gray-600">
+        {{ episode.data.date | date("yyyy-MM-dd") }}
+      </p>
+
+      {% if episode.data.description %}
+        <p class="text-gray-700 mt-1">{{ episode.data.description }}</p>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
+
+{% if pagination.pages.length > 1 %}
+  <nav class="pagination flex gap-2 mt-10 text-sm">
+    {% if pagination.href.previous %}
+      <a href="{{ pagination.href.previous }}" class="px-3 py-1 bg-gray-100 rounded hover:bg-gray-200">← Previous</a>
+    {% endif %}
+
+    {% for page, index in pagination.pages %}
+      <a
+        href="{{ pagination.hrefs[index] }}"
+        class="px-3 py-1 rounded hover:bg-gray-200 {{ pagination.pageNumber == index ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-800' }}"
+      >
+        {{ index + 1 }}
+      </a>
+    {% endfor %}
+
+    {% if pagination.href.next %}
+      <a href="{{ pagination.href.next }}" class="px-3 py-1 bg-gray-100 rounded hover:bg-gray-200">Next →</a>
+    {% endif %}
+  </nav>
+{% endif %}

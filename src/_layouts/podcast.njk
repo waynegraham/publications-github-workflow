@@ -1,0 +1,23 @@
+---
+layout: default.njk
+---
+
+<article class="prose max-w-none">
+  <h1>{{ title }}</h1>
+  <p class="text-sm text-gray-600">{{ date | date("yyyy-MM-dd") }}</p>
+
+  {% if audio_url %}
+    <audio controls class="my-4 w-full">
+      <source src="{{ audio_url }}" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+  {% endif %}
+
+  {% if description %}
+    <p class="text-gray-700 italic">{{ description }}</p>
+  {% endif %}
+
+  <div class="mt-6">
+    {{ content | safe }}
+  </div>
+</article>

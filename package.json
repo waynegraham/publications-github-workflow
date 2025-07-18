@@ -4,14 +4,15 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "zenodo": "node scripts/zenodoReports.cjs",
+    "sync:zenodo": "node scripts/zenodoReports.cjs",
+    "sync:podcasts": "node scripts/syncPodcasts.cjs",
+    "sync": "pnpm run sync:zenodo && pnpm run sync:podcasts",
     "start": "run-p start:*",
     "start:eleventy": "eleventy --serve",
     "start:postcss": "postcss src/assets/css/*.css --dir _site --watch",
     "build": "eleventy",
     "build:css": "postcss src/assets/css/*.css -o _site/assets/css/style.css",
-    "build:eleventy": "eleventy",
-    "sync": "pnpm run zenodo && pnpm run build"
+    "build:eleventy": "eleventy"
   },
   "keywords": [],
   "author": "",

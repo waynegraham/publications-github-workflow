@@ -18,6 +18,12 @@ module.exports = function (eleventyConfig) {
   });
 
   // Collections
+  eleventyConfig.addCollection("podcasts", function (collectionApi) {
+  return collectionApi
+    .getFilteredByTag("podcasts")
+    .filter(item => item.data.date)
+    .sort((a, b) => new Date(b.data.date) - new Date(a.data.date));
+});
 
   eleventyConfig.addCollection("reports", function (collectionApi) {
     return collectionApi
