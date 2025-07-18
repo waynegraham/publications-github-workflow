@@ -2,4 +2,43 @@
 layout: default
 ---
 
-{{ content | safe }}
+<article class="report">
+    <header>
+        <h1>{{ title }}</h1>
+        <p>
+            <strong>Published:</strong>
+            {{ date | date("yyyy-MM-dd") }}</p>
+        {% if authors %}
+            <p>
+                <strong>Authors:</strong>
+                {{ authors | join(", ") }}</p>
+        {% endif %}
+    </header>
+
+    {% if thumbnail %}
+        <img src="{{ thumbnail }}" alt="{{ title }} thumbnail" width="400"/>
+    {% endif %}
+
+    <section class="report-description">
+        {{ content | safe }}
+    </section>
+
+<section class="report-meta">
+  {% if doi %}
+    <p><strong>DOI:</strong> <a href="https://doi.org/{{ doi }}">{{ doi }}</a></p>
+  {% endif %}
+
+  {% if url %}
+    <p><strong>Zenodo URL:</strong> <a href="{{ url }}">{{ url }}</a></p>
+  {% endif %}
+
+  {% if files %}
+    <p><strong>Files:</strong> <a href="{{ files }}">Download</a></p>
+  {% endif %}
+
+  {% if stats %}
+    <p><strong>Views:</strong> {{ stats.views | default(0) }}</p>
+    <p><strong>Downloads:</strong> {{ stats.downloads | default(0) }}</p>
+  {% endif %}
+</section>
+</article>

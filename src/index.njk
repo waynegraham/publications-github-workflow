@@ -2,3 +2,22 @@
 title: Home
 layout: default
 ---
+<h2>Reports</h2>
+<ul>
+    {% for report in collections.reports | reverse %}
+        <li>
+            <h3>
+                <a href="{{ report.url }}">{{ report.data.title }}</a>
+            </h3>
+            <p>
+                <strong>Date:</strong>
+                {{ report.data.date | date("yyyy-MM-dd") }}</p>
+            {% if report.data.thumbnail %}
+                <img src="{{ report.data.thumbnail }}" alt="{{ report.data.title }} thumbnail" width="200"/>
+            {% endif %}
+            {% if report.templateContent %}
+                <div>{{ report.templateContent | safe }}</div>
+            {% endif %}
+        </li>
+    {% endfor %}
+</ul>
