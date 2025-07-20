@@ -4,22 +4,22 @@
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>{{ title or "Untitled" }}</title>
-        <link rel="stylesheet" href="/style.css"/>
+        <link rel="stylesheet" href="{{'/style.css' | url }}"/>
     </head>
     <body class="font-sans leading-relaxed antialiased max-w-3xl mx-auto px-4 py-6">
         <nav class="mb-6 text-sm">
             <ul class="flex gap-4 text-blue-600">
                 <li>
-                    <a href="/" class="hover:underline">Home</a>
+                    <a href="{{'/' | url }}" class="hover:underline">Home</a>
                 </li>
                 <li>
-                    <a href="/reports/" class="hover:underline">All Reports</a>
+                    <a href="{{'/reports/' | url }}" class="hover:underline">All Reports</a>
                 </li>
                 <li>
-                    <a href="/podcasts/" class="hover:underline">Podcasts</a>
+                    <a href="{{'/podcasts/' | url }}" class="hover:underline">Podcasts</a>
                 </li>
                 <li>
-                    <a href="/videos/" class="hover:underline">Videos</a>
+                    <a href="{{'/videos/' | url }}" class="hover:underline">Videos</a>
                 </li>
             </ul>
         </nav>
