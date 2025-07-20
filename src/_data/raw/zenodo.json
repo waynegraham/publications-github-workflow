@@ -1,0 +1,560 @@
+{
+  "hits": {
+    "hits": [
+      {
+        "created": "2024-10-24T17:38:23.293912+00:00",
+        "modified": "2025-03-18T15:35:06.092204+00:00",
+        "id": 13988293,
+        "conceptrecid": "13988292",
+        "doi": "10.17605/OSF.IO/2NMPC",
+        "doi_url": "https://doi.org/10.17605/OSF.IO/2NMPC",
+        "metadata": {
+          "title": "Inclusive Metadata Toolkit",
+          "doi": "10.17605/OSF.IO/2NMPC",
+          "publication_date": "2024-10-22",
+          "description": "<p>Created by the inclusive metadata task force of the DLF Cultural Assessment Working Group (CAWG), the Inclusive Metadata Toolkit serves as a centralized guide to the range of inclusive metadata tools and resources currently out there, in order to equip practitioners to implement inclusive metadata practices in their day-to-day work.</p>\n<p>The toolkit consists of two components:</p>\n<ol>\n<li>The Inclusive Metadata Toolkit guide document, which provides context for the listed tools and resources in order to make them easier to use and navigate. This document is static.</li>\n<li>The complete&nbsp;<a href=\"https://docs.google.com/spreadsheets/d/1pdyZz6t2TFj9sHamWSSPxcf7lFkfyV_Zb7_ygC8AbHc/edit?usp=sharing\">Inclusive Metadata Toolkit Resource Directory</a>, which serves as a sortable and filterable directory of inclusive metadata tools and resources to help you wherever your institution is at. The version in OSF is a static snapshot of a living document.</li>\n</ol>\n<p>We hope the Inclusive Metadata Toolkit Resource Directory can continue to change and grow, providing a living directory as more inclusive metadata tools and resources are created and published over time. Additional resources can be suggested through the&nbsp;<a href=\"https://docs.google.com/forms/d/e/1FAIpQLSd7uUzs_OIk02I7uMU3_-LCvlEzJbXEAGdZKZ9r8kYMIiSXUw/viewform\">Inclusive Metadata Toolkit Suggested Resource &amp; Feedback Form</a>. General feedback or questions are also welcome.</p>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Huang, Jackson",
+              "affiliation": null
+            },
+            {
+              "name": "Provo, Alexandra Alisa",
+              "affiliation": null
+            },
+            {
+              "name": "McKeehan, Morgan",
+              "affiliation": null
+            },
+            {
+              "name": "Wittmann, Rachel",
+              "affiliation": null
+            }
+          ],
+          "resource_type": {
+            "title": "Report",
+            "type": "publication",
+            "subtype": "report"
+          },
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "communities": [
+            {
+              "id": "clir"
+            }
+          ],
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "13988292"
+                }
+              }
+            ]
+          }
+        },
+        "title": "Inclusive Metadata Toolkit",
+        "links": {
+          "self": "https://zenodo.org/api/records/13988293",
+          "self_html": "https://zenodo.org/records/13988293",
+          "preview_html": "https://zenodo.org/records/13988293?preview=1",
+          "doi": "https://doi.org/10.17605/OSF.IO/2NMPC",
+          "self_doi": "https://doi.org/10.17605/OSF.IO/2NMPC",
+          "self_doi_html": "https://zenodo.org/doi/10.17605/OSF.IO/2NMPC",
+          "reserve_doi": "https://zenodo.org/api/records/13988293/draft/pids/doi",
+          "parent": "https://zenodo.org/api/records/13988292",
+          "parent_html": "https://zenodo.org/records/13988292",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:13988293/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:13988293/sequence/default",
+          "files": "https://zenodo.org/api/records/13988293/files",
+          "media_files": "https://zenodo.org/api/records/13988293/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:13988293:DLF_CAWG_InclusiveMetadataToolkit_v1.pdf/full/%5E10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:13988293:DLF_CAWG_InclusiveMetadataToolkit_v1.pdf/full/%5E50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:13988293:DLF_CAWG_InclusiveMetadataToolkit_v1.pdf/full/%5E100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:13988293:DLF_CAWG_InclusiveMetadataToolkit_v1.pdf/full/%5E250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:13988293:DLF_CAWG_InclusiveMetadataToolkit_v1.pdf/full/%5E750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:13988293:DLF_CAWG_InclusiveMetadataToolkit_v1.pdf/full/%5E1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/13988293/files-archive",
+          "archive_media": "https://zenodo.org/api/records/13988293/media-files-archive",
+          "latest": "https://zenodo.org/api/records/13988293/versions/latest",
+          "latest_html": "https://zenodo.org/records/13988293/latest",
+          "versions": "https://zenodo.org/api/records/13988293/versions",
+          "draft": "https://zenodo.org/api/records/13988293/draft",
+          "access_links": "https://zenodo.org/api/records/13988293/access/links",
+          "access_grants": "https://zenodo.org/api/records/13988293/access/grants",
+          "access_users": "https://zenodo.org/api/records/13988293/access/users",
+          "access_request": "https://zenodo.org/api/records/13988293/access/request",
+          "access": "https://zenodo.org/api/records/13988293/access",
+          "communities": "https://zenodo.org/api/records/13988293/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/13988293/communities-suggestions",
+          "requests": "https://zenodo.org/api/records/13988293/requests"
+        },
+        "updated": "2025-03-18T15:35:06.092204+00:00",
+        "recid": "13988293",
+        "revision": 6,
+        "files": [
+          {
+            "id": "d0ecf877-f14c-4dbb-b232-77c2b0343072",
+            "key": "DLF_CAWG_InclusiveMetadataToolkit_v1.pdf",
+            "size": 2297469,
+            "checksum": "md5:b361b72d193683a3b5900ab3de0d3bae",
+            "links": {
+              "self": "https://zenodo.org/api/records/13988293/files/DLF_CAWG_InclusiveMetadataToolkit_v1.pdf/content"
+            }
+          },
+          {
+            "id": "11936b02-7f74-4bca-85be-449943722b60",
+            "key": "Inclusive Metatada Toolkit_Resources Directory_v1.xlsx",
+            "size": 42778,
+            "checksum": "md5:f02d6beb07062bef2728d35193315c24",
+            "links": {
+              "self": "https://zenodo.org/api/records/13988293/files/Inclusive Metatada Toolkit_Resources Directory_v1.xlsx/content"
+            }
+          }
+        ],
+        "swh": {},
+        "owners": [
+          {
+            "id": "5103"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 18,
+          "unique_downloads": 15,
+          "views": 13,
+          "unique_views": 12,
+          "version_downloads": 18,
+          "version_unique_downloads": 15,
+          "version_unique_views": 12,
+          "version_views": 13
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2023-12-12T14:52:38.872965+00:00",
+        "modified": "2024-07-08T08:13:56.230737+00:00",
+        "id": 10363523,
+        "conceptrecid": "10363522",
+        "doi": "10.5281/zenodo.10363523",
+        "conceptdoi": "10.5281/zenodo.10363522",
+        "doi_url": "https://doi.org/10.5281/zenodo.10363523",
+        "metadata": {
+          "title": "Digits and Dreams: Scholarship and computing in the age of abundance",
+          "doi": "10.5281/zenodo.10363523",
+          "publication_date": "2008-12-02",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Friedlander, Amy",
+              "affiliation": null
+            }
+          ],
+          "resource_type": {
+            "title": "Presentation",
+            "type": "presentation"
+          },
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "communities": [
+            {
+              "id": "clir"
+            }
+          ],
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "10363522"
+                }
+              }
+            ]
+          }
+        },
+        "title": "Digits and Dreams: Scholarship and computing in the age of abundance",
+        "links": {
+          "self": "https://zenodo.org/api/records/10363523",
+          "self_html": "https://zenodo.org/records/10363523",
+          "preview_html": "https://zenodo.org/records/10363523?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.10363523",
+          "self_doi": "https://doi.org/10.5281/zenodo.10363523",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.10363523",
+          "reserve_doi": "https://zenodo.org/api/records/10363523/draft/pids/doi",
+          "parent": "https://zenodo.org/api/records/10363522",
+          "parent_html": "https://zenodo.org/records/10363522",
+          "parent_doi": "https://doi.org/10.5281/zenodo.10363522",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.10363522",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:10363523/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:10363523/sequence/default",
+          "files": "https://zenodo.org/api/records/10363523/files",
+          "media_files": "https://zenodo.org/api/records/10363523/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:10363523:dublin2008.pdf/full/%5E10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:10363523:dublin2008.pdf/full/%5E50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:10363523:dublin2008.pdf/full/%5E100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:10363523:dublin2008.pdf/full/%5E250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:10363523:dublin2008.pdf/full/%5E750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:10363523:dublin2008.pdf/full/%5E1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/10363523/files-archive",
+          "archive_media": "https://zenodo.org/api/records/10363523/media-files-archive",
+          "latest": "https://zenodo.org/api/records/10363523/versions/latest",
+          "latest_html": "https://zenodo.org/records/10363523/latest",
+          "versions": "https://zenodo.org/api/records/10363523/versions",
+          "draft": "https://zenodo.org/api/records/10363523/draft",
+          "access_links": "https://zenodo.org/api/records/10363523/access/links",
+          "access_grants": "https://zenodo.org/api/records/10363523/access/grants",
+          "access_users": "https://zenodo.org/api/records/10363523/access/users",
+          "access_request": "https://zenodo.org/api/records/10363523/access/request",
+          "access": "https://zenodo.org/api/records/10363523/access",
+          "communities": "https://zenodo.org/api/records/10363523/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/10363523/communities-suggestions",
+          "requests": "https://zenodo.org/api/records/10363523/requests"
+        },
+        "updated": "2024-07-08T08:13:56.230737+00:00",
+        "recid": "10363523",
+        "revision": 6,
+        "files": [
+          {
+            "id": "0e5195a5-351e-4e5e-9a99-f407d835a996",
+            "key": "dublin2008.pdf",
+            "size": 214098,
+            "checksum": "md5:6ed13d0b5048fa3e34c6acf0d35b72b4",
+            "links": {
+              "self": "https://zenodo.org/api/records/10363523/files/dublin2008.pdf/content"
+            }
+          }
+        ],
+        "swh": {},
+        "owners": [
+          {
+            "id": "5103"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 27,
+          "unique_downloads": 26,
+          "views": 64,
+          "unique_views": 63,
+          "version_downloads": 27,
+          "version_unique_downloads": 26,
+          "version_unique_views": 63,
+          "version_views": 64
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2023-03-07T16:40:55.868870+00:00",
+        "modified": "2025-02-11T20:57:26.971078+00:00",
+        "id": 7705928,
+        "conceptrecid": "7705927",
+        "doi": "10.5281/zenodo.7705928",
+        "conceptdoi": "10.5281/zenodo.7705927",
+        "doi_url": "https://doi.org/10.5281/zenodo.7705928",
+        "metadata": {
+          "title": "1995-1996 Annual Report",
+          "doi": "10.5281/zenodo.7705928",
+          "publication_date": "1996-07-01",
+          "description": "COMMISSION ON PRESERVATION AND ACCESS ANNUAL REPORT July 1, 1995 - June 30, 1996",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Battin, Patricia",
+              "affiliation": "Council on Library Resources"
+            }
+          ],
+          "keywords": [
+            "Annual Reports"
+          ],
+          "resource_type": {
+            "title": "Report",
+            "type": "publication",
+            "subtype": "report"
+          },
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "communities": [
+            {
+              "id": "clir"
+            }
+          ],
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "7705927"
+                }
+              }
+            ]
+          }
+        },
+        "title": "1995-1996 Annual Report",
+        "links": {
+          "self": "https://zenodo.org/api/records/7705928",
+          "self_html": "https://zenodo.org/records/7705928",
+          "preview_html": "https://zenodo.org/records/7705928?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.7705928",
+          "self_doi": "https://doi.org/10.5281/zenodo.7705928",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7705928",
+          "reserve_doi": "https://zenodo.org/api/records/7705928/draft/pids/doi",
+          "parent": "https://zenodo.org/api/records/7705927",
+          "parent_html": "https://zenodo.org/records/7705927",
+          "parent_doi": "https://doi.org/10.5281/zenodo.7705927",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7705927",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:7705928/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:7705928/sequence/default",
+          "files": "https://zenodo.org/api/records/7705928/files",
+          "media_files": "https://zenodo.org/api/records/7705928/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:7705928:1995---1996-Annual-Report.pdf/full/%5E10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:7705928:1995---1996-Annual-Report.pdf/full/%5E50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:7705928:1995---1996-Annual-Report.pdf/full/%5E100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:7705928:1995---1996-Annual-Report.pdf/full/%5E250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:7705928:1995---1996-Annual-Report.pdf/full/%5E750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:7705928:1995---1996-Annual-Report.pdf/full/%5E1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/7705928/files-archive",
+          "archive_media": "https://zenodo.org/api/records/7705928/media-files-archive",
+          "latest": "https://zenodo.org/api/records/7705928/versions/latest",
+          "latest_html": "https://zenodo.org/records/7705928/latest",
+          "versions": "https://zenodo.org/api/records/7705928/versions",
+          "draft": "https://zenodo.org/api/records/7705928/draft",
+          "access_links": "https://zenodo.org/api/records/7705928/access/links",
+          "access_grants": "https://zenodo.org/api/records/7705928/access/grants",
+          "access_users": "https://zenodo.org/api/records/7705928/access/users",
+          "access_request": "https://zenodo.org/api/records/7705928/access/request",
+          "access": "https://zenodo.org/api/records/7705928/access",
+          "communities": "https://zenodo.org/api/records/7705928/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/7705928/communities-suggestions",
+          "requests": "https://zenodo.org/api/records/7705928/requests"
+        },
+        "updated": "2025-02-11T20:57:26.971078+00:00",
+        "recid": "7705928",
+        "revision": 7,
+        "files": [
+          {
+            "id": "6f943065-3585-4229-b5dc-c2279de5aa22",
+            "key": "1995---1996-Annual-Report.pdf",
+            "size": 22452947,
+            "checksum": "md5:ce4357402cb7f564f008d9abf74a91a0",
+            "links": {
+              "self": "https://zenodo.org/api/records/7705928/files/1995---1996-Annual-Report.pdf/content"
+            }
+          }
+        ],
+        "swh": {},
+        "owners": [
+          {
+            "id": "5103"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 72,
+          "unique_downloads": 72,
+          "views": 55,
+          "unique_views": 54,
+          "version_downloads": 72,
+          "version_unique_downloads": 72,
+          "version_unique_views": 54,
+          "version_views": 55
+        },
+        "state": "done",
+        "submitted": true
+      }
+    ],
+    "total": 276
+  },
+  "aggregations": {
+    "access_status": {
+      "buckets": [
+        {
+          "key": "open",
+          "doc_count": 276,
+          "label": "Open",
+          "is_selected": false
+        }
+      ],
+      "label": "Access status"
+    },
+    "resource_type": {
+      "buckets": [
+        {
+          "key": "publication",
+          "doc_count": 242,
+          "label": "Publication",
+          "is_selected": false,
+          "inner": {
+            "buckets": [
+              {
+                "key": "publication-report",
+                "doc_count": 237,
+                "label": "Report",
+                "is_selected": false
+              },
+              {
+                "key": "publication-other",
+                "doc_count": 3,
+                "label": "Other",
+                "is_selected": false
+              },
+              {
+                "key": "publication-article",
+                "doc_count": 2,
+                "label": "Journal article",
+                "is_selected": false
+              }
+            ]
+          }
+        },
+        {
+          "key": "presentation",
+          "doc_count": 33,
+          "label": "Presentation",
+          "is_selected": false,
+          "inner": {
+            "buckets": []
+          }
+        },
+        {
+          "key": "poster",
+          "doc_count": 1,
+          "label": "Poster",
+          "is_selected": false,
+          "inner": {
+            "buckets": []
+          }
+        }
+      ],
+      "label": "Resource types"
+    },
+    "subject": {
+      "buckets": [
+        {
+          "key": "Preservation",
+          "doc_count": 59,
+          "label": "Preservation",
+          "is_selected": false
+        },
+        {
+          "key": "Annual Reports",
+          "doc_count": 47,
+          "label": "Annual Reports",
+          "is_selected": false
+        },
+        {
+          "key": "Archives",
+          "doc_count": 47,
+          "label": "Archives",
+          "is_selected": false
+        },
+        {
+          "key": "Library Services",
+          "doc_count": 39,
+          "label": "Library Services",
+          "is_selected": false
+        },
+        {
+          "key": "Access to Information",
+          "doc_count": 37,
+          "label": "Access to Information",
+          "is_selected": false
+        },
+        {
+          "key": "Academic Libraries",
+          "doc_count": 26,
+          "label": "Academic Libraries",
+          "is_selected": false
+        },
+        {
+          "key": "Higher Education",
+          "doc_count": 25,
+          "label": "Higher Education",
+          "is_selected": false
+        },
+        {
+          "key": "Research Libraries",
+          "doc_count": 25,
+          "label": "Research Libraries",
+          "is_selected": false
+        },
+        {
+          "key": "Information Technology",
+          "doc_count": 21,
+          "label": "Information Technology",
+          "is_selected": false
+        },
+        {
+          "key": "Library Administration",
+          "doc_count": 21,
+          "label": "Library Administration",
+          "is_selected": false
+        }
+      ],
+      "label": "Subjects"
+    },
+    "file_type": {
+      "buckets": [
+        {
+          "key": "pdf",
+          "doc_count": 257,
+          "label": "PDF",
+          "is_selected": false
+        },
+        {
+          "key": "ppt",
+          "doc_count": 17,
+          "label": "PPT",
+          "is_selected": false
+        },
+        {
+          "key": "mp3",
+          "doc_count": 5,
+          "label": "MP3",
+          "is_selected": false
+        },
+        {
+          "key": "xlsx",
+          "doc_count": 3,
+          "label": "XLSX",
+          "is_selected": false
+        },
+        {
+          "key": "doc",
+          "doc_count": 2,
+          "label": "DOC",
+          "is_selected": false
+        },
+        {
+          "key": "docx",
+          "doc_count": 1,
+          "label": "DOCX",
+          "is_selected": false
+        }
+      ],
+      "label": "File type"
+    }
+  },
+  "links": {
+    "self": "https://zenodo.org/api/records?page=1&q=communities%3Aclir&size=3&sort=bestmatch",
+    "next": "https://zenodo.org/api/records?page=2&q=communities%3Aclir&size=3&sort=bestmatch"
+  }
+}

@@ -59,6 +59,20 @@ module.exports = function (eleventyConfig) {
     return [...types].sort();
   });
 
+  eleventyConfig.addCollection("videos", function (collectionApi) {
+  return collectionApi
+    .getFilteredByTag("videos")
+    .filter(item => item.data.date)
+    .sort((a, b) => new Date(b.data.date) - new Date(a.data.date));
+});
+
+eleventyConfig.addCollection("recentVideos", function (collectionApi) {
+  return collectionApi
+    .getFilteredByTag("videos")
+    .sort((a, b) => new Date(b.data.date) - new Date(a.data.date))
+    .slice(0, 5);
+});
+
   // Return eleventy
   return {
     dir: {
@@ -71,5 +85,7 @@ module.exports = function (eleventyConfig) {
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
     templateFormats: ["md", "njk", "html"],
+    pathPrefix: "/publications-github-workflow",
   };
+
 };

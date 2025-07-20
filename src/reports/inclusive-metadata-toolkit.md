@@ -1,20 +1,21 @@
 ---
 title: "Inclusive Metadata Toolkit"
 date: "2024-10-22"
-zenodo_id: 13988293
+layout: report
+id: 13988293
 doi: "10.17605/OSF.IO/2NMPC"
 url: ""
+authors:
+  - "Huang, Jackson"
+  - "Provo, Alexandra Alisa"
+  - "McKeehan, Morgan"
+  - "Wittmann, Rachel"
 resource_type: "Report"
 thumbnail: "https://zenodo.org/api/iiif/record:13988293:DLF_CAWG_InclusiveMetadataToolkit_v1.pdf/full/%5E1200,/0/default.jpg"
 files: "https://zenodo.org/api/records/13988293/files"
 stats:
   downloads: 18
   views: 13
-authors:
-  - "Huang, Jackson"
-  - "Provo, Alexandra Alisa"
-  - "McKeehan, Morgan"
-  - "Wittmann, Rachel"
 ---
 
 <p>Created by the inclusive metadata task force of the DLF Cultural Assessment Working Group (CAWG), the Inclusive Metadata Toolkit serves as a centralized guide to the range of inclusive metadata tools and resources currently out there, in order to equip practitioners to implement inclusive metadata practices in their day-to-day work.</p>

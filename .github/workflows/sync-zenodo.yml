@@ -14,3 +14,22 @@ jobs:
               uses: actions/setup-node@v3
               with:
                 node-version: '24'
+                cache: 'pnpm'
+
+            - name: Install dependencies
+              run:
+                corepack enable
+                pnpm install
+
+            - name: Sync reports from Zenodo
+              run: pnpm run sync:zenodo
+
+            - name: Build site
+              run: pnpm run build
+
+            - name: Commit and push changes
+              uses: stefanzweifel/git-auto-commit-action@v6
+              with:
+                commit_message: "Sync reports from Zenodo"
+                commit_user_name: github-actions[bot]
+                commit_user_email: github-actions[bot]@users.noreply.github.com

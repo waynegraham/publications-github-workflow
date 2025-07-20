@@ -1,0 +1,41 @@
+---
+title: Videos
+layout: default.njk
+pagination:
+  data: collections.videos
+  size: 10
+  alias: pagedVideos
+  reverse: true
+  addAllPagesToCollections: true
+---
+
+{# eleventyComputed:
+  permalink: "{{ pagination.pageNumber == 0 ? 'videos/index.html' : 'videos/' + pagination.pageNumber + '/index.html' }}" #}
+
+<h1 class="text-2xl font-bold mb-6">Videos</h1>
+
+<ul class="space-y-8">
+    {% for video in pagedVideos %}
+        <li class="border-b pb-4">
+            <h2 class="text-lg font-semibold">
+                <a href="{{ video.url }}" class="hover:underline">
+                    {{ video.data.title }}
+                </a>
+            </h2>
+            <p class="text-sm text-gray-600">{{ video.data.date | date("yyyy-MM-dd") }}</p>
+
+            {% if video.data.youtube_id %}
+                <iframe
+          src="https://www.youtube.com/embed/{{ video.data.youtube_id }}"
+          class="w-full h-64"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+            {% endif %}
+
+            {% if video.data.description %}
+                <p class="text-gray-700 mt-1">{{ video.data.description }}</p>
+            {% endif %}
+        </li>
+    {% endfor %}
+</ul>

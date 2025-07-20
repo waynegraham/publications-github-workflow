@@ -1,0 +1,27 @@
+---
+layout: default.njk
+---
+
+<article class="prose max-w-none">
+  <h1>{{ title }}</h1>
+  <p class="text-sm text-gray-600">{{ date | date("yyyy-MM-dd") }}</p>
+
+  {% if youtube_id %}
+    <div class="aspect-w-16 aspect-h-9 my-4">
+      <iframe
+        src="https://www.youtube.com/embed/{{ youtube_id }}"
+        frameborder="0"
+        allowfullscreen
+        class="w-full h-64 md:h-96"
+      ></iframe>
+    </div>
+  {% endif %}
+
+  {% if description %}
+    <p class="text-gray-700">{{ description }}</p>
+  {% endif %}
+
+  <div class="mt-6">
+    {{ content | safe }}
+  </div>
+</article>
