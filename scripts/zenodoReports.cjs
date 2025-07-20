@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Zenodo API for CLIR community (adjust size as needed)
-const apiURL = 'https://zenodo.org/api/records?q=communities:clir&size=10';
+const apiURL = 'https://zenodo.org/api/records?q=communities:clir&size=10&sort=mostrecent';
 
 // Paths
 const jsonOutput = path.join(__dirname, '../src/_data/raw/zenodo.json');
