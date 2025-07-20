@@ -2,6 +2,415 @@
   "hits": {
     "hits": [
       {
+        "created": "2025-07-16T14:33:51.645823+00:00",
+        "modified": "2025-07-16T14:33:51.904781+00:00",
+        "id": 15978918,
+        "conceptrecid": "15978917",
+        "doi": "10.5281/zenodo.15978918",
+        "conceptdoi": "10.5281/zenodo.15978917",
+        "doi_url": "https://doi.org/10.5281/zenodo.15978918",
+        "metadata": {
+          "title": "An Overview of Emulation as a Preservation Method",
+          "doi": "10.5281/zenodo.15978918",
+          "publication_date": "2025-07-16",
+          "description": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>Emulation&ndash;the use of modern computer systems to run historical software&ndash;is a growing practice within libraries, archives, museums, and galleries that is essential to conserving and providing ongoing access to the digital past. Emulation makes it possible to interact with historical data and digital artifacts in ways that are more consistent with their creators&rsquo; intentions, helping contemporary users better understand how and why those artifacts were made. Increasingly, academic and cultural organizations face challenging decisions about using emulation to preserve and provide access to their collections.&nbsp;<em>An Overview of Emulation as a Preservation Method</em> introduces fundamental concepts related to emulation in practice and explains key considerations that can inform these decisions. The report also includes a review of academic literature related to emulation and suggests new avenues for potential future collaboration and exploration. Together, the conceptual overview, example use cases, and literature review provide readers new to emulation with an orientation to the current state of practice as well as an understanding of the important role of emulation in the larger field of digital preservation.</p>\n<p>The six authors of the report are members of the <a href=\"https://www.softwarepreservationnetwork.org/\">Software Preservation Network</a>&nbsp;(SPN)&nbsp;<a href=\"https://www.softwarepreservationnetwork.org/working-group/tech-infrastructure-working-group/\">Technological Infrastructure Working Group</a>. Over several years, this group has been documenting and sharing insights about emulation workflows actively employed in academic and cultural settings. Their work aims to establish best practices and inform scalable infrastructure solutions that can be broadly shared so that legacy software can become more accessible and maintainable in the future.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Kaltman, Eric",
+              "affiliation": null
+            },
+            {
+              "name": "Schwaid-Lindner, Winnie",
+              "affiliation": null,
+              "orcid": "0000-0002-9232-2204"
+            },
+            {
+              "name": "Jonathan, Drey",
+              "affiliation": null
+            },
+            {
+              "name": "Borman, Andrew",
+              "affiliation": null
+            },
+            {
+              "name": "Garnett, Alex",
+              "affiliation": null
+            },
+            {
+              "name": "Masinter, Larry",
+              "affiliation": null
+            }
+          ],
+          "resource_type": {
+            "title": "Report",
+            "type": "publication",
+            "subtype": "report"
+          },
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "communities": [
+            {
+              "id": "clir"
+            }
+          ],
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "15978917"
+                }
+              }
+            ]
+          }
+        },
+        "title": "An Overview of Emulation as a Preservation Method",
+        "links": {
+          "self": "https://zenodo.org/api/records/15978918",
+          "self_html": "https://zenodo.org/records/15978918",
+          "preview_html": "https://zenodo.org/records/15978918?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.15978918",
+          "self_doi": "https://doi.org/10.5281/zenodo.15978918",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15978918",
+          "reserve_doi": "https://zenodo.org/api/records/15978918/draft/pids/doi",
+          "parent": "https://zenodo.org/api/records/15978917",
+          "parent_html": "https://zenodo.org/records/15978917",
+          "parent_doi": "https://doi.org/10.5281/zenodo.15978917",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15978917",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:15978918/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:15978918/sequence/default",
+          "files": "https://zenodo.org/api/records/15978918/files",
+          "media_files": "https://zenodo.org/api/records/15978918/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:15978918:An_Overview_of_Emulation_as_a_Preservation_Method_CLIRpub194.pdf/full/%5E10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:15978918:An_Overview_of_Emulation_as_a_Preservation_Method_CLIRpub194.pdf/full/%5E50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:15978918:An_Overview_of_Emulation_as_a_Preservation_Method_CLIRpub194.pdf/full/%5E100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:15978918:An_Overview_of_Emulation_as_a_Preservation_Method_CLIRpub194.pdf/full/%5E250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:15978918:An_Overview_of_Emulation_as_a_Preservation_Method_CLIRpub194.pdf/full/%5E750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:15978918:An_Overview_of_Emulation_as_a_Preservation_Method_CLIRpub194.pdf/full/%5E1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/15978918/files-archive",
+          "archive_media": "https://zenodo.org/api/records/15978918/media-files-archive",
+          "latest": "https://zenodo.org/api/records/15978918/versions/latest",
+          "latest_html": "https://zenodo.org/records/15978918/latest",
+          "versions": "https://zenodo.org/api/records/15978918/versions",
+          "draft": "https://zenodo.org/api/records/15978918/draft",
+          "access_links": "https://zenodo.org/api/records/15978918/access/links",
+          "access_grants": "https://zenodo.org/api/records/15978918/access/grants",
+          "access_users": "https://zenodo.org/api/records/15978918/access/users",
+          "access_request": "https://zenodo.org/api/records/15978918/access/request",
+          "access": "https://zenodo.org/api/records/15978918/access",
+          "communities": "https://zenodo.org/api/records/15978918/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/15978918/communities-suggestions",
+          "requests": "https://zenodo.org/api/records/15978918/requests"
+        },
+        "updated": "2025-07-16T14:33:51.904781+00:00",
+        "recid": "15978918",
+        "revision": 4,
+        "files": [
+          {
+            "id": "26de0c2d-d8f8-4d88-942d-6ed856509759",
+            "key": "An_Overview_of_Emulation_as_a_Preservation_Method_CLIRpub194.pdf",
+            "size": 1249313,
+            "checksum": "md5:5eda798aae42f9a4f241ecd40673ef45",
+            "links": {
+              "self": "https://zenodo.org/api/records/15978918/files/An_Overview_of_Emulation_as_a_Preservation_Method_CLIRpub194.pdf/content"
+            }
+          }
+        ],
+        "swh": {},
+        "owners": [
+          {
+            "id": "5103"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 7,
+          "unique_downloads": 2,
+          "views": 2,
+          "unique_views": 2,
+          "version_downloads": 7,
+          "version_unique_downloads": 2,
+          "version_unique_views": 2,
+          "version_views": 2
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2025-04-15T17:24:02.274148+00:00",
+        "modified": "2025-04-15T17:24:02.444708+00:00",
+        "id": 15225111,
+        "conceptrecid": "15225110",
+        "doi": "10.5281/zenodo.15225111",
+        "conceptdoi": "10.5281/zenodo.15225110",
+        "doi_url": "https://doi.org/10.5281/zenodo.15225111",
+        "metadata": {
+          "title": "Creating Ethical Temporary Positions in Archives: Best Practices and Case Studies",
+          "doi": "10.5281/zenodo.15225111",
+          "publication_date": "2024-12-17",
+          "description": "<div>\n<div>\n<div>\n<div>\n<p><em>Creating Ethical Temporary Positions in Archives</em>&nbsp;reflects on the &ldquo;hidden collections&rdquo; era and the impact of the resulting proliferation in grant-funded temporary positions on the employment of archivists. The authors examine why and how cultural organizations have come to rely so heavily on contingent positions to perform core operational work. Grounded in research including a literature review, survey findings, and case studies, their report offers guidelines on how to most ethically design, hire, and administer term-limited archival positions. The report builds upon the authors' previous efforts to establish the&nbsp;<a href=\"https://osf.io/a4zc8/\">Best Practices for Archival Term Positions</a>, which was first published in 2022 and&nbsp;<a href=\"https://www2.archivists.org/groups/standards-committee/best-practices-for-archival-term-positions\">ratified by the Society for American Archivists</a> in 2023.</p>\n</div>\n</div>\n</div>\n</div>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Dean, Courtney",
+              "affiliation": null
+            },
+            {
+              "name": "Lehman, Monika",
+              "affiliation": null
+            },
+            {
+              "name": "Messick, Kit",
+              "affiliation": null
+            },
+            {
+              "name": "Quigley, Sarah",
+              "affiliation": null
+            },
+            {
+              "name": "Sayles, Sheridan Leigh",
+              "affiliation": null
+            },
+            {
+              "name": "Starratt, Laura",
+              "affiliation": null
+            },
+            {
+              "name": "Tessler, Camila Zorrilla",
+              "affiliation": null
+            }
+          ],
+          "resource_type": {
+            "title": "Report",
+            "type": "publication",
+            "subtype": "report"
+          },
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "communities": [
+            {
+              "id": "clir"
+            }
+          ],
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "15225110"
+                }
+              }
+            ]
+          }
+        },
+        "title": "Creating Ethical Temporary Positions in Archives: Best Practices and Case Studies",
+        "links": {
+          "self": "https://zenodo.org/api/records/15225111",
+          "self_html": "https://zenodo.org/records/15225111",
+          "preview_html": "https://zenodo.org/records/15225111?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.15225111",
+          "self_doi": "https://doi.org/10.5281/zenodo.15225111",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15225111",
+          "reserve_doi": "https://zenodo.org/api/records/15225111/draft/pids/doi",
+          "parent": "https://zenodo.org/api/records/15225110",
+          "parent_html": "https://zenodo.org/records/15225110",
+          "parent_doi": "https://doi.org/10.5281/zenodo.15225110",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15225110",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:15225111/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:15225111/sequence/default",
+          "files": "https://zenodo.org/api/records/15225111/files",
+          "media_files": "https://zenodo.org/api/records/15225111/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:15225111:Creating_Ethical_Temporary_Positions_in_Archives_CLIRpub192.pdf/full/%5E10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:15225111:Creating_Ethical_Temporary_Positions_in_Archives_CLIRpub192.pdf/full/%5E50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:15225111:Creating_Ethical_Temporary_Positions_in_Archives_CLIRpub192.pdf/full/%5E100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:15225111:Creating_Ethical_Temporary_Positions_in_Archives_CLIRpub192.pdf/full/%5E250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:15225111:Creating_Ethical_Temporary_Positions_in_Archives_CLIRpub192.pdf/full/%5E750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:15225111:Creating_Ethical_Temporary_Positions_in_Archives_CLIRpub192.pdf/full/%5E1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/15225111/files-archive",
+          "archive_media": "https://zenodo.org/api/records/15225111/media-files-archive",
+          "latest": "https://zenodo.org/api/records/15225111/versions/latest",
+          "latest_html": "https://zenodo.org/records/15225111/latest",
+          "versions": "https://zenodo.org/api/records/15225111/versions",
+          "draft": "https://zenodo.org/api/records/15225111/draft",
+          "access_links": "https://zenodo.org/api/records/15225111/access/links",
+          "access_grants": "https://zenodo.org/api/records/15225111/access/grants",
+          "access_users": "https://zenodo.org/api/records/15225111/access/users",
+          "access_request": "https://zenodo.org/api/records/15225111/access/request",
+          "access": "https://zenodo.org/api/records/15225111/access",
+          "communities": "https://zenodo.org/api/records/15225111/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/15225111/communities-suggestions",
+          "requests": "https://zenodo.org/api/records/15225111/requests"
+        },
+        "updated": "2025-04-15T17:24:02.444708+00:00",
+        "recid": "15225111",
+        "revision": 4,
+        "files": [
+          {
+            "id": "053b34da-b026-4d76-b310-d27c0d4cb903",
+            "key": "Creating_Ethical_Temporary_Positions_in_Archives_CLIRpub192.pdf",
+            "size": 1474209,
+            "checksum": "md5:a689d95b5e3b249d94f6e1f7c6379d06",
+            "links": {
+              "self": "https://zenodo.org/api/records/15225111/files/Creating_Ethical_Temporary_Positions_in_Archives_CLIRpub192.pdf/content"
+            }
+          }
+        ],
+        "swh": {},
+        "owners": [
+          {
+            "id": "5103"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 27,
+          "unique_downloads": 24,
+          "views": 14,
+          "unique_views": 13,
+          "version_downloads": 27,
+          "version_unique_downloads": 24,
+          "version_unique_views": 13,
+          "version_views": 14
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2025-04-15T17:14:29.783352+00:00",
+        "modified": "2025-04-15T17:14:29.985268+00:00",
+        "id": 15225049,
+        "conceptrecid": "15225048",
+        "doi": "10.5281/zenodo.15225049",
+        "conceptdoi": "10.5281/zenodo.15225048",
+        "doi_url": "https://doi.org/10.5281/zenodo.15225049",
+        "metadata": {
+          "title": "The Story of the Modern Seed Library: A Historical Analysis of Seed Saving, Its Evolution Through the Ages, and Its Current Impact on Community, Culture, and Connection",
+          "doi": "10.5281/zenodo.15225049",
+          "publication_date": "2024-09-04",
+          "description": "<p>This study explores the relationship between humans and seeds, from the first agricultural societies 12,000 years ago to the modern era of centralized agribusiness corporations. Authors Jennifer K. Embree and Neyda V. Gilman argue that seeds, like any resource, have been a tool for human power, control, and development. As genetic biodiversity in plant life collapses due to climate change, Embree and Gilman offer seed libraries as a community-centered service that libraries can provide to combat food insecurity while celebrating biodiversity. Both faculty-ranked academic librarians at Binghamton University, the authors were inspired to write this publication as they worked together to launch their library&rsquo;s Sustainability Hub in 2021, which includes the campus&rsquo;s first seed library.</p>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Embree, Jennifer K.",
+              "affiliation": null
+            },
+            {
+              "name": "Gilman, Neyda V.",
+              "affiliation": null
+            }
+          ],
+          "resource_type": {
+            "title": "Report",
+            "type": "publication",
+            "subtype": "report"
+          },
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "communities": [
+            {
+              "id": "clir"
+            }
+          ],
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "15225048"
+                }
+              }
+            ]
+          }
+        },
+        "title": "The Story of the Modern Seed Library: A Historical Analysis of Seed Saving, Its Evolution Through the Ages, and Its Current Impact on Community, Culture, and Connection",
+        "links": {
+          "self": "https://zenodo.org/api/records/15225049",
+          "self_html": "https://zenodo.org/records/15225049",
+          "preview_html": "https://zenodo.org/records/15225049?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.15225049",
+          "self_doi": "https://doi.org/10.5281/zenodo.15225049",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15225049",
+          "reserve_doi": "https://zenodo.org/api/records/15225049/draft/pids/doi",
+          "parent": "https://zenodo.org/api/records/15225048",
+          "parent_html": "https://zenodo.org/records/15225048",
+          "parent_doi": "https://doi.org/10.5281/zenodo.15225048",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15225048",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:15225049/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:15225049/sequence/default",
+          "files": "https://zenodo.org/api/records/15225049/files",
+          "media_files": "https://zenodo.org/api/records/15225049/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:15225049:Story-of-the-Modern-Seed-Library.pdf/full/%5E10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:15225049:Story-of-the-Modern-Seed-Library.pdf/full/%5E50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:15225049:Story-of-the-Modern-Seed-Library.pdf/full/%5E100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:15225049:Story-of-the-Modern-Seed-Library.pdf/full/%5E250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:15225049:Story-of-the-Modern-Seed-Library.pdf/full/%5E750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:15225049:Story-of-the-Modern-Seed-Library.pdf/full/%5E1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/15225049/files-archive",
+          "archive_media": "https://zenodo.org/api/records/15225049/media-files-archive",
+          "latest": "https://zenodo.org/api/records/15225049/versions/latest",
+          "latest_html": "https://zenodo.org/records/15225049/latest",
+          "versions": "https://zenodo.org/api/records/15225049/versions",
+          "draft": "https://zenodo.org/api/records/15225049/draft",
+          "access_links": "https://zenodo.org/api/records/15225049/access/links",
+          "access_grants": "https://zenodo.org/api/records/15225049/access/grants",
+          "access_users": "https://zenodo.org/api/records/15225049/access/users",
+          "access_request": "https://zenodo.org/api/records/15225049/access/request",
+          "access": "https://zenodo.org/api/records/15225049/access",
+          "communities": "https://zenodo.org/api/records/15225049/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/15225049/communities-suggestions",
+          "requests": "https://zenodo.org/api/records/15225049/requests"
+        },
+        "updated": "2025-04-15T17:14:29.985268+00:00",
+        "recid": "15225049",
+        "revision": 4,
+        "files": [
+          {
+            "id": "8856bff4-74c9-469f-8afa-89a3a23e936c",
+            "key": "Story-of-the-Modern-Seed-Library.pdf",
+            "size": 887836,
+            "checksum": "md5:7afcefaa3deeb6f6730207e533c59356",
+            "links": {
+              "self": "https://zenodo.org/api/records/15225049/files/Story-of-the-Modern-Seed-Library.pdf/content"
+            }
+          }
+        ],
+        "swh": {},
+        "owners": [
+          {
+            "id": "5103"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 33,
+          "unique_downloads": 25,
+          "views": 21,
+          "unique_views": 18,
+          "version_downloads": 33,
+          "version_unique_downloads": 25,
+          "version_unique_views": 18,
+          "version_views": 21
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
         "created": "2025-04-15T14:13:00.004500+00:00",
         "modified": "2025-04-15T17:15:28.536102+00:00",
         "id": 15224013,
@@ -125,30 +534,281 @@
         "submitted": true
       },
       {
-        "created": "2023-04-07T13:15:46.368284+00:00",
-        "modified": "2024-07-12T08:41:08.375813+00:00",
-        "id": 7808593,
-        "conceptrecid": "7808592",
-        "doi": "10.5281/zenodo.7808593",
-        "conceptdoi": "10.5281/zenodo.7808592",
-        "doi_url": "https://doi.org/10.5281/zenodo.7808593",
+        "created": "2025-02-13T13:59:36.980786+00:00",
+        "modified": "2025-02-13T13:59:37.256823+00:00",
+        "id": 14865773,
+        "conceptrecid": "14865772",
+        "doi": "10.5281/zenodo.14865773",
+        "conceptdoi": "10.5281/zenodo.14865772",
+        "doi_url": "https://doi.org/10.5281/zenodo.14865773",
         "metadata": {
-          "title": "Dimension and Use of the Scholarly Information Environment",
-          "doi": "10.5281/zenodo.7808593",
-          "publication_date": "2001-07-01",
-          "description": "<p>The backdrop for this study is that the Digital Library Federation (DLF) has become increasingly concerned by the absence of reliable information with which to document and explain changing patterns of library use in universities and colleges. DLF repeatedly hears from academic library directors that such analyses are vital but missing ingredients of their strategic planning, and of the business case they make to faculty and senior administrators either to win or bolster support for the library and its changing directions.</p>",
+          "title": "Annual Report: 2023-2024",
+          "doi": "10.5281/zenodo.14865773",
+          "publication_date": "2025-02-13",
+          "description": "<p>Annual Report for the Council on Library and Information Resources, 2023-2024</p>",
           "access_right": "open",
           "creators": [
             {
-              "name": "Dagar, Lynn",
+              "name": "Council on Library and Information Resources",
+              "affiliation": null
+            }
+          ],
+          "keywords": [
+            "Annual Reports"
+          ],
+          "resource_type": {
+            "title": "Report",
+            "type": "publication",
+            "subtype": "report"
+          },
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "communities": [
+            {
+              "id": "clir"
+            }
+          ],
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "14865772"
+                }
+              }
+            ]
+          }
+        },
+        "title": "Annual Report: 2023-2024",
+        "links": {
+          "self": "https://zenodo.org/api/records/14865773",
+          "self_html": "https://zenodo.org/records/14865773",
+          "preview_html": "https://zenodo.org/records/14865773?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.14865773",
+          "self_doi": "https://doi.org/10.5281/zenodo.14865773",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14865773",
+          "reserve_doi": "https://zenodo.org/api/records/14865773/draft/pids/doi",
+          "parent": "https://zenodo.org/api/records/14865772",
+          "parent_html": "https://zenodo.org/records/14865772",
+          "parent_doi": "https://doi.org/10.5281/zenodo.14865772",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14865772",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:14865773/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:14865773/sequence/default",
+          "files": "https://zenodo.org/api/records/14865773/files",
+          "media_files": "https://zenodo.org/api/records/14865773/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:14865773:CLIR_Annual_Report_2023-24.pdf/full/%5E10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:14865773:CLIR_Annual_Report_2023-24.pdf/full/%5E50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:14865773:CLIR_Annual_Report_2023-24.pdf/full/%5E100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:14865773:CLIR_Annual_Report_2023-24.pdf/full/%5E250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:14865773:CLIR_Annual_Report_2023-24.pdf/full/%5E750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:14865773:CLIR_Annual_Report_2023-24.pdf/full/%5E1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/14865773/files-archive",
+          "archive_media": "https://zenodo.org/api/records/14865773/media-files-archive",
+          "latest": "https://zenodo.org/api/records/14865773/versions/latest",
+          "latest_html": "https://zenodo.org/records/14865773/latest",
+          "versions": "https://zenodo.org/api/records/14865773/versions",
+          "draft": "https://zenodo.org/api/records/14865773/draft",
+          "access_links": "https://zenodo.org/api/records/14865773/access/links",
+          "access_grants": "https://zenodo.org/api/records/14865773/access/grants",
+          "access_users": "https://zenodo.org/api/records/14865773/access/users",
+          "access_request": "https://zenodo.org/api/records/14865773/access/request",
+          "access": "https://zenodo.org/api/records/14865773/access",
+          "communities": "https://zenodo.org/api/records/14865773/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/14865773/communities-suggestions",
+          "requests": "https://zenodo.org/api/records/14865773/requests"
+        },
+        "updated": "2025-02-13T13:59:37.256823+00:00",
+        "recid": "14865773",
+        "revision": 4,
+        "files": [
+          {
+            "id": "a7670a93-3fce-4fdb-8382-8e4cc4bef40b",
+            "key": "CLIR_Annual_Report_2023-24.pdf",
+            "size": 7829372,
+            "checksum": "md5:c5decf7fc61aa390fc9c69ce3101641a",
+            "links": {
+              "self": "https://zenodo.org/api/records/14865773/files/CLIR_Annual_Report_2023-24.pdf/content"
+            }
+          }
+        ],
+        "swh": {},
+        "owners": [
+          {
+            "id": "5103"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 235,
+          "unique_downloads": 163,
+          "views": 204,
+          "unique_views": 190,
+          "version_downloads": 235,
+          "version_unique_downloads": 163,
+          "version_unique_views": 190,
+          "version_views": 204
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2025-01-09T14:26:49.749278+00:00",
+        "modified": "2025-01-09T14:26:49.897867+00:00",
+        "id": 14622275,
+        "conceptrecid": "14622274",
+        "doi": "10.5281/zenodo.14622275",
+        "conceptdoi": "10.5281/zenodo.14622274",
+        "doi_url": "https://doi.org/10.5281/zenodo.14622275",
+        "metadata": {
+          "title": "Archivist Actions, Abolitionist Futures: Reimagining Archival Practice Against Incarceration",
+          "doi": "10.5281/zenodo.14622275",
+          "publication_date": "2025-01-09",
+          "description": "<p>This collection of brief essays challenges long-held principles of archival practice by addressing the carceral underpinnings of the cultural professions. Contributors explore how complicity with carceral systems and the Prison Industrial Complex undermines equitable access to information and perpetuates systemic harms. Drawing from their experiences working with collections documenting the lives and creativity of incarcerated individuals, the authors reflect on how traditional archival methods often fall short of providing respectful access to these materials. The volume offers a call to action for reimagining archival work grounded in abolitionist values.</p>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Clemens, Alison",
               "affiliation": null
             },
             {
-              "name": "Greenstein, Daniel",
+              "name": "Farrell, Jessica",
+              "affiliation": null,
+              "orcid": "0000-0002-7714-4278"
+            }
+          ],
+          "resource_type": {
+            "title": "Report",
+            "type": "publication",
+            "subtype": "report"
+          },
+          "license": {
+            "id": "cc-by-nc-sa-2.0"
+          },
+          "communities": [
+            {
+              "id": "clir"
+            }
+          ],
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "14622274"
+                }
+              }
+            ]
+          }
+        },
+        "title": "Archivist Actions, Abolitionist Futures: Reimagining Archival Practice Against Incarceration",
+        "links": {
+          "self": "https://zenodo.org/api/records/14622275",
+          "self_html": "https://zenodo.org/records/14622275",
+          "preview_html": "https://zenodo.org/records/14622275?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.14622275",
+          "self_doi": "https://doi.org/10.5281/zenodo.14622275",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14622275",
+          "reserve_doi": "https://zenodo.org/api/records/14622275/draft/pids/doi",
+          "parent": "https://zenodo.org/api/records/14622274",
+          "parent_html": "https://zenodo.org/records/14622274",
+          "parent_doi": "https://doi.org/10.5281/zenodo.14622274",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14622274",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:14622275/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:14622275/sequence/default",
+          "files": "https://zenodo.org/api/records/14622275/files",
+          "media_files": "https://zenodo.org/api/records/14622275/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:14622275:Archivist_Actions_Abolitionist_Futures_CLIRpub193.pdf/full/%5E10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:14622275:Archivist_Actions_Abolitionist_Futures_CLIRpub193.pdf/full/%5E50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:14622275:Archivist_Actions_Abolitionist_Futures_CLIRpub193.pdf/full/%5E100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:14622275:Archivist_Actions_Abolitionist_Futures_CLIRpub193.pdf/full/%5E250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:14622275:Archivist_Actions_Abolitionist_Futures_CLIRpub193.pdf/full/%5E750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:14622275:Archivist_Actions_Abolitionist_Futures_CLIRpub193.pdf/full/%5E1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/14622275/files-archive",
+          "archive_media": "https://zenodo.org/api/records/14622275/media-files-archive",
+          "latest": "https://zenodo.org/api/records/14622275/versions/latest",
+          "latest_html": "https://zenodo.org/records/14622275/latest",
+          "versions": "https://zenodo.org/api/records/14622275/versions",
+          "draft": "https://zenodo.org/api/records/14622275/draft",
+          "access_links": "https://zenodo.org/api/records/14622275/access/links",
+          "access_grants": "https://zenodo.org/api/records/14622275/access/grants",
+          "access_users": "https://zenodo.org/api/records/14622275/access/users",
+          "access_request": "https://zenodo.org/api/records/14622275/access/request",
+          "access": "https://zenodo.org/api/records/14622275/access",
+          "communities": "https://zenodo.org/api/records/14622275/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/14622275/communities-suggestions",
+          "requests": "https://zenodo.org/api/records/14622275/requests"
+        },
+        "updated": "2025-01-09T14:26:49.897867+00:00",
+        "recid": "14622275",
+        "revision": 4,
+        "files": [
+          {
+            "id": "3401fb27-782b-49dd-a603-0dccb5df6f72",
+            "key": "Archivist_Actions_Abolitionist_Futures_CLIRpub193.pdf",
+            "size": 2225842,
+            "checksum": "md5:3ee6fb128be64e7969de278f130033c9",
+            "links": {
+              "self": "https://zenodo.org/api/records/14622275/files/Archivist_Actions_Abolitionist_Futures_CLIRpub193.pdf/content"
+            }
+          }
+        ],
+        "swh": {},
+        "owners": [
+          {
+            "id": "5103"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 17,
+          "unique_downloads": 11,
+          "views": 9,
+          "unique_views": 9,
+          "version_downloads": 17,
+          "version_unique_downloads": 11,
+          "version_unique_views": 9,
+          "version_views": 9
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2024-10-24T17:38:23.293912+00:00",
+        "modified": "2025-03-18T15:35:06.092204+00:00",
+        "id": 13988293,
+        "conceptrecid": "13988292",
+        "doi": "10.17605/OSF.IO/2NMPC",
+        "doi_url": "https://doi.org/10.17605/OSF.IO/2NMPC",
+        "metadata": {
+          "title": "Inclusive Metadata Toolkit",
+          "doi": "10.17605/OSF.IO/2NMPC",
+          "publication_date": "2024-10-22",
+          "description": "<p>Created by the inclusive metadata task force of the DLF Cultural Assessment Working Group (CAWG), the Inclusive Metadata Toolkit serves as a centralized guide to the range of inclusive metadata tools and resources currently out there, in order to equip practitioners to implement inclusive metadata practices in their day-to-day work.</p>\n<p>The toolkit consists of two components:</p>\n<ol>\n<li>The Inclusive Metadata Toolkit guide document, which provides context for the listed tools and resources in order to make them easier to use and navigate. This document is static.</li>\n<li>The complete&nbsp;<a href=\"https://docs.google.com/spreadsheets/d/1pdyZz6t2TFj9sHamWSSPxcf7lFkfyV_Zb7_ygC8AbHc/edit?usp=sharing\">Inclusive Metadata Toolkit Resource Directory</a>, which serves as a sortable and filterable directory of inclusive metadata tools and resources to help you wherever your institution is at. The version in OSF is a static snapshot of a living document.</li>\n</ol>\n<p>We hope the Inclusive Metadata Toolkit Resource Directory can continue to change and grow, providing a living directory as more inclusive metadata tools and resources are created and published over time. Additional resources can be suggested through the&nbsp;<a href=\"https://docs.google.com/forms/d/e/1FAIpQLSd7uUzs_OIk02I7uMU3_-LCvlEzJbXEAGdZKZ9r8kYMIiSXUw/viewform\">Inclusive Metadata Toolkit Suggested Resource &amp; Feedback Form</a>. General feedback or questions are also welcome.</p>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Huang, Jackson",
               "affiliation": null
             },
             {
-              "name": "Healy, Leigh Watson",
+              "name": "Provo, Alexandra Alisa",
+              "affiliation": null
+            },
+            {
+              "name": "McKeehan, Morgan",
+              "affiliation": null
+            },
+            {
+              "name": "Wittmann, Rachel",
               "affiliation": null
             }
           ],
@@ -172,63 +832,70 @@
                 "is_last": true,
                 "parent": {
                   "pid_type": "recid",
-                  "pid_value": "7808592"
+                  "pid_value": "13988292"
                 }
               }
             ]
           }
         },
-        "title": "Dimension and Use of the Scholarly Information Environment",
+        "title": "Inclusive Metadata Toolkit",
         "links": {
-          "self": "https://zenodo.org/api/records/7808593",
-          "self_html": "https://zenodo.org/records/7808593",
-          "preview_html": "https://zenodo.org/records/7808593?preview=1",
-          "doi": "https://doi.org/10.5281/zenodo.7808593",
-          "self_doi": "https://doi.org/10.5281/zenodo.7808593",
-          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7808593",
-          "reserve_doi": "https://zenodo.org/api/records/7808593/draft/pids/doi",
-          "parent": "https://zenodo.org/api/records/7808592",
-          "parent_html": "https://zenodo.org/records/7808592",
-          "parent_doi": "https://doi.org/10.5281/zenodo.7808592",
-          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7808592",
-          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:7808593/manifest",
-          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:7808593/sequence/default",
-          "files": "https://zenodo.org/api/records/7808593/files",
-          "media_files": "https://zenodo.org/api/records/7808593/media-files",
+          "self": "https://zenodo.org/api/records/13988293",
+          "self_html": "https://zenodo.org/records/13988293",
+          "preview_html": "https://zenodo.org/records/13988293?preview=1",
+          "doi": "https://doi.org/10.17605/OSF.IO/2NMPC",
+          "self_doi": "https://doi.org/10.17605/OSF.IO/2NMPC",
+          "self_doi_html": "https://zenodo.org/doi/10.17605/OSF.IO/2NMPC",
+          "reserve_doi": "https://zenodo.org/api/records/13988293/draft/pids/doi",
+          "parent": "https://zenodo.org/api/records/13988292",
+          "parent_html": "https://zenodo.org/records/13988292",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:13988293/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:13988293/sequence/default",
+          "files": "https://zenodo.org/api/records/13988293/files",
+          "media_files": "https://zenodo.org/api/records/13988293/media-files",
           "thumbnails": {
-            "10": "https://zenodo.org/api/iiif/record:7808593:grantpub.pdf/full/%5E10,/0/default.jpg",
-            "50": "https://zenodo.org/api/iiif/record:7808593:grantpub.pdf/full/%5E50,/0/default.jpg",
-            "100": "https://zenodo.org/api/iiif/record:7808593:grantpub.pdf/full/%5E100,/0/default.jpg",
-            "250": "https://zenodo.org/api/iiif/record:7808593:grantpub.pdf/full/%5E250,/0/default.jpg",
-            "750": "https://zenodo.org/api/iiif/record:7808593:grantpub.pdf/full/%5E750,/0/default.jpg",
-            "1200": "https://zenodo.org/api/iiif/record:7808593:grantpub.pdf/full/%5E1200,/0/default.jpg"
+            "10": "https://zenodo.org/api/iiif/record:13988293:DLF_CAWG_InclusiveMetadataToolkit_v1.pdf/full/%5E10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:13988293:DLF_CAWG_InclusiveMetadataToolkit_v1.pdf/full/%5E50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:13988293:DLF_CAWG_InclusiveMetadataToolkit_v1.pdf/full/%5E100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:13988293:DLF_CAWG_InclusiveMetadataToolkit_v1.pdf/full/%5E250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:13988293:DLF_CAWG_InclusiveMetadataToolkit_v1.pdf/full/%5E750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:13988293:DLF_CAWG_InclusiveMetadataToolkit_v1.pdf/full/%5E1200,/0/default.jpg"
           },
-          "archive": "https://zenodo.org/api/records/7808593/files-archive",
-          "archive_media": "https://zenodo.org/api/records/7808593/media-files-archive",
-          "latest": "https://zenodo.org/api/records/7808593/versions/latest",
-          "latest_html": "https://zenodo.org/records/7808593/latest",
-          "versions": "https://zenodo.org/api/records/7808593/versions",
-          "draft": "https://zenodo.org/api/records/7808593/draft",
-          "access_links": "https://zenodo.org/api/records/7808593/access/links",
-          "access_grants": "https://zenodo.org/api/records/7808593/access/grants",
-          "access_users": "https://zenodo.org/api/records/7808593/access/users",
-          "access_request": "https://zenodo.org/api/records/7808593/access/request",
-          "access": "https://zenodo.org/api/records/7808593/access",
-          "communities": "https://zenodo.org/api/records/7808593/communities",
-          "communities-suggestions": "https://zenodo.org/api/records/7808593/communities-suggestions",
-          "requests": "https://zenodo.org/api/records/7808593/requests"
+          "archive": "https://zenodo.org/api/records/13988293/files-archive",
+          "archive_media": "https://zenodo.org/api/records/13988293/media-files-archive",
+          "latest": "https://zenodo.org/api/records/13988293/versions/latest",
+          "latest_html": "https://zenodo.org/records/13988293/latest",
+          "versions": "https://zenodo.org/api/records/13988293/versions",
+          "draft": "https://zenodo.org/api/records/13988293/draft",
+          "access_links": "https://zenodo.org/api/records/13988293/access/links",
+          "access_grants": "https://zenodo.org/api/records/13988293/access/grants",
+          "access_users": "https://zenodo.org/api/records/13988293/access/users",
+          "access_request": "https://zenodo.org/api/records/13988293/access/request",
+          "access": "https://zenodo.org/api/records/13988293/access",
+          "communities": "https://zenodo.org/api/records/13988293/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/13988293/communities-suggestions",
+          "requests": "https://zenodo.org/api/records/13988293/requests"
         },
-        "updated": "2024-07-12T08:41:08.375813+00:00",
-        "recid": "7808593",
-        "revision": 5,
+        "updated": "2025-03-18T15:35:06.092204+00:00",
+        "recid": "13988293",
+        "revision": 6,
         "files": [
           {
-            "id": "88a6e21d-de25-4b7e-ab9c-ca2781a20b33",
-            "key": "grantpub.pdf",
-            "size": 74872,
-            "checksum": "md5:79bd9ae317fb4910c97bb04bd24775c9",
+            "id": "d0ecf877-f14c-4dbb-b232-77c2b0343072",
+            "key": "DLF_CAWG_InclusiveMetadataToolkit_v1.pdf",
+            "size": 2297469,
+            "checksum": "md5:b361b72d193683a3b5900ab3de0d3bae",
             "links": {
-              "self": "https://zenodo.org/api/records/7808593/files/grantpub.pdf/content"
+              "self": "https://zenodo.org/api/records/13988293/files/DLF_CAWG_InclusiveMetadataToolkit_v1.pdf/content"
+            }
+          },
+          {
+            "id": "11936b02-7f74-4bca-85be-449943722b60",
+            "key": "Inclusive Metatada Toolkit_Resources Directory_v1.xlsx",
+            "size": 42778,
+            "checksum": "md5:f02d6beb07062bef2728d35193315c24",
+            "links": {
+              "self": "https://zenodo.org/api/records/13988293/files/Inclusive Metatada Toolkit_Resources Directory_v1.xlsx/content"
             }
           }
         ],
@@ -240,428 +907,48 @@
         ],
         "status": "published",
         "stats": {
-          "downloads": 26,
-          "unique_downloads": 26,
-          "views": 31,
-          "unique_views": 31,
-          "version_downloads": 26,
-          "version_unique_downloads": 26,
-          "version_unique_views": 31,
-          "version_views": 31
+          "downloads": 18,
+          "unique_downloads": 15,
+          "views": 13,
+          "unique_views": 12,
+          "version_downloads": 18,
+          "version_unique_downloads": 15,
+          "version_unique_views": 12,
+          "version_views": 13
         },
         "state": "done",
         "submitted": true
       },
       {
-        "created": "2023-02-06T20:04:26.829004+00:00",
-        "modified": "2024-07-12T16:37:53.206073+00:00",
-        "id": 7613312,
-        "conceptrecid": "7613311",
-        "doi": "10.5281/zenodo.7613312",
-        "conceptdoi": "10.5281/zenodo.7613311",
-        "doi_url": "https://doi.org/10.5281/zenodo.7613312",
+        "created": "2024-07-03T17:35:23.436171+00:00",
+        "modified": "2024-07-03T17:35:24.163754+00:00",
+        "id": 12636841,
+        "conceptrecid": "12636840",
+        "doi": "10.5281/zenodo.12636841",
+        "conceptdoi": "10.5281/zenodo.12636840",
+        "doi_url": "https://doi.org/10.5281/zenodo.12636841",
         "metadata": {
-          "title": "Image Retrieval Benchmark Database Service: A Needs Assessment and Preliminary Development Plan",
-          "doi": "10.5281/zenodo.7613312",
-          "publication_date": "2003-10-01",
-          "description": "<p>A report on the feasibility of creating an image retrieval benchmarking service.&nbsp;</p>",
+          "title": "Panel and open discussion: New Archival Approaches to the History and Memory of Atlantic World Slavery",
+          "doi": "10.5281/zenodo.12636841",
+          "publication_date": "2022-05-24",
+          "description": "<p>With a focus on the history and memory of Atlantic world slavery, this virtual roundtable explores new approaches to the archive. Panelists will talk about the research that went into their books. Dr. Danielle Terrazas Williams will discuss <em>The Capital of Free Women: Race, Legitimacy, and Liberty in Colonial Mexico</em> (Yale, 2022). Dr. Scott Heerman will talk about <em>The Alchemy of Slavery: Human Bondage and Emancipation in the Illinois Country</em> (Penn, 2018). Dr. Matthew Fox-Amato will discuss&nbsp;<em>Exposing Slavery: Photography, Human Bondage, and the Birth of Modern Visual Politics in America</em>&nbsp;(OUP, 2019).</p>",
           "access_right": "open",
           "creators": [
             {
-              "name": "Jennifer Trant",
-              "affiliation": "Archives & Museum Informatics"
-            }
-          ],
-          "resource_type": {
-            "title": "Report",
-            "type": "publication",
-            "subtype": "report"
-          },
-          "license": {
-            "id": "cc-by-4.0"
-          },
-          "communities": [
-            {
-              "id": "clir"
-            }
-          ],
-          "relations": {
-            "version": [
-              {
-                "index": 0,
-                "is_last": true,
-                "parent": {
-                  "pid_type": "recid",
-                  "pid_value": "7613311"
-                }
-              }
-            ]
-          }
-        },
-        "title": "Image Retrieval Benchmark Database Service: A Needs Assessment and Preliminary Development Plan",
-        "links": {
-          "self": "https://zenodo.org/api/records/7613312",
-          "self_html": "https://zenodo.org/records/7613312",
-          "preview_html": "https://zenodo.org/records/7613312?preview=1",
-          "doi": "https://doi.org/10.5281/zenodo.7613312",
-          "self_doi": "https://doi.org/10.5281/zenodo.7613312",
-          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7613312",
-          "reserve_doi": "https://zenodo.org/api/records/7613312/draft/pids/doi",
-          "parent": "https://zenodo.org/api/records/7613311",
-          "parent_html": "https://zenodo.org/records/7613311",
-          "parent_doi": "https://doi.org/10.5281/zenodo.7613311",
-          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7613311",
-          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:7613312/manifest",
-          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:7613312/sequence/default",
-          "files": "https://zenodo.org/api/records/7613312/files",
-          "media_files": "https://zenodo.org/api/records/7613312/media-files",
-          "thumbnails": {
-            "10": "https://zenodo.org/api/iiif/record:7613312:tranttext.pdf/full/%5E10,/0/default.jpg",
-            "50": "https://zenodo.org/api/iiif/record:7613312:tranttext.pdf/full/%5E50,/0/default.jpg",
-            "100": "https://zenodo.org/api/iiif/record:7613312:tranttext.pdf/full/%5E100,/0/default.jpg",
-            "250": "https://zenodo.org/api/iiif/record:7613312:tranttext.pdf/full/%5E250,/0/default.jpg",
-            "750": "https://zenodo.org/api/iiif/record:7613312:tranttext.pdf/full/%5E750,/0/default.jpg",
-            "1200": "https://zenodo.org/api/iiif/record:7613312:tranttext.pdf/full/%5E1200,/0/default.jpg"
-          },
-          "archive": "https://zenodo.org/api/records/7613312/files-archive",
-          "archive_media": "https://zenodo.org/api/records/7613312/media-files-archive",
-          "latest": "https://zenodo.org/api/records/7613312/versions/latest",
-          "latest_html": "https://zenodo.org/records/7613312/latest",
-          "versions": "https://zenodo.org/api/records/7613312/versions",
-          "draft": "https://zenodo.org/api/records/7613312/draft",
-          "access_links": "https://zenodo.org/api/records/7613312/access/links",
-          "access_grants": "https://zenodo.org/api/records/7613312/access/grants",
-          "access_users": "https://zenodo.org/api/records/7613312/access/users",
-          "access_request": "https://zenodo.org/api/records/7613312/access/request",
-          "access": "https://zenodo.org/api/records/7613312/access",
-          "communities": "https://zenodo.org/api/records/7613312/communities",
-          "communities-suggestions": "https://zenodo.org/api/records/7613312/communities-suggestions",
-          "requests": "https://zenodo.org/api/records/7613312/requests"
-        },
-        "updated": "2024-07-12T16:37:53.206073+00:00",
-        "recid": "7613312",
-        "revision": 5,
-        "files": [
-          {
-            "id": "dd91481c-4744-4069-9b17-f0f1d5d05adc",
-            "key": "tranttext.pdf",
-            "size": 286915,
-            "checksum": "md5:9d38867d6510c4b4498331ed5f45c287",
-            "links": {
-              "self": "https://zenodo.org/api/records/7613312/files/tranttext.pdf/content"
-            }
-          },
-          {
-            "id": "4f5f8302-7ad6-4488-b302-9fa61883b5e0",
-            "key": "trantrefs.pdf",
-            "size": 270933,
-            "checksum": "md5:d22e27fa5ef28cdc601a460ec0cb3cda",
-            "links": {
-              "self": "https://zenodo.org/api/records/7613312/files/trantrefs.pdf/content"
-            }
-          }
-        ],
-        "swh": {},
-        "owners": [
-          {
-            "id": "5103"
-          }
-        ],
-        "status": "published",
-        "stats": {
-          "downloads": 65,
-          "unique_downloads": 63,
-          "views": 48,
-          "unique_views": 47,
-          "version_downloads": 65,
-          "version_unique_downloads": 63,
-          "version_unique_views": 47,
-          "version_views": 48
-        },
-        "state": "done",
-        "submitted": true
-      },
-      {
-        "created": "2023-03-20T12:41:56.171726+00:00",
-        "modified": "2024-07-12T11:11:44.870767+00:00",
-        "id": 7752567,
-        "conceptrecid": "7752566",
-        "doi": "10.5281/zenodo.7752567",
-        "conceptdoi": "10.5281/zenodo.7752566",
-        "doi_url": "https://doi.org/10.5281/zenodo.7752567",
-        "metadata": {
-          "title": "Preservation Priorities in Latin America: A Report from the Sixtieth IFLA Meeting, Havana, Cuba",
-          "doi": "10.5281/zenodo.7752567",
-          "publication_date": "1995-07-03",
-          "description": "<p>The information in this report is condensed from the presentations and conversations, both formal and informal, that occurred during the 60th meeting of the International Federation of Library Associations (IFLA). About 1,500 librarians attended, representing Cuba, Venezuela, Mexico, Argentina, Peru, and Colombia. Training for preservation administrators and preservation technicians was identified as a high priority need in Latin America. Because of the need for training, Latin American librarians were eager for current preservation literature. Maintenance and storage environments were also priority concerns; however, the breakdown of acidic papers was scarcely mentioned. Biological pests are perceived as a greater hazard in tropical environments. Of secondary priority, the conference participants recognized reformatting and bibliographic control, connectivity through new technologies, and opportunities for creative projects.</p>",
-          "access_right": "open",
-          "creators": [
-            {
-              "name": "Hazen, Dan C.",
-              "affiliation": null
-            }
-          ],
-          "keywords": [
-            "Administration",
-            "Cataloging",
-            "Foreign Countries",
-            "Library Collections",
-            "Library Facilities",
-            "Library Services",
-            "Needs Assessment",
-            "Preservation",
-            "Prevention",
-            "Program Development",
-            "Records Management",
-            "Training"
-          ],
-          "resource_type": {
-            "title": "Report",
-            "type": "publication",
-            "subtype": "report"
-          },
-          "license": {
-            "id": "cc-by-4.0"
-          },
-          "communities": [
-            {
-              "id": "clir"
-            }
-          ],
-          "relations": {
-            "version": [
-              {
-                "index": 0,
-                "is_last": true,
-                "parent": {
-                  "pid_type": "recid",
-                  "pid_value": "7752566"
-                }
-              }
-            ]
-          }
-        },
-        "title": "Preservation Priorities in Latin America: A Report from the Sixtieth IFLA Meeting, Havana, Cuba",
-        "links": {
-          "self": "https://zenodo.org/api/records/7752567",
-          "self_html": "https://zenodo.org/records/7752567",
-          "preview_html": "https://zenodo.org/records/7752567?preview=1",
-          "doi": "https://doi.org/10.5281/zenodo.7752567",
-          "self_doi": "https://doi.org/10.5281/zenodo.7752567",
-          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7752567",
-          "reserve_doi": "https://zenodo.org/api/records/7752567/draft/pids/doi",
-          "parent": "https://zenodo.org/api/records/7752566",
-          "parent_html": "https://zenodo.org/records/7752566",
-          "parent_doi": "https://doi.org/10.5281/zenodo.7752566",
-          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7752566",
-          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:7752567/manifest",
-          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:7752567/sequence/default",
-          "files": "https://zenodo.org/api/records/7752567/files",
-          "media_files": "https://zenodo.org/api/records/7752567/media-files",
-          "thumbnails": {
-            "10": "https://zenodo.org/api/iiif/record:7752567:pub55.pdf/full/%5E10,/0/default.jpg",
-            "50": "https://zenodo.org/api/iiif/record:7752567:pub55.pdf/full/%5E50,/0/default.jpg",
-            "100": "https://zenodo.org/api/iiif/record:7752567:pub55.pdf/full/%5E100,/0/default.jpg",
-            "250": "https://zenodo.org/api/iiif/record:7752567:pub55.pdf/full/%5E250,/0/default.jpg",
-            "750": "https://zenodo.org/api/iiif/record:7752567:pub55.pdf/full/%5E750,/0/default.jpg",
-            "1200": "https://zenodo.org/api/iiif/record:7752567:pub55.pdf/full/%5E1200,/0/default.jpg"
-          },
-          "archive": "https://zenodo.org/api/records/7752567/files-archive",
-          "archive_media": "https://zenodo.org/api/records/7752567/media-files-archive",
-          "latest": "https://zenodo.org/api/records/7752567/versions/latest",
-          "latest_html": "https://zenodo.org/records/7752567/latest",
-          "versions": "https://zenodo.org/api/records/7752567/versions",
-          "draft": "https://zenodo.org/api/records/7752567/draft",
-          "access_links": "https://zenodo.org/api/records/7752567/access/links",
-          "access_grants": "https://zenodo.org/api/records/7752567/access/grants",
-          "access_users": "https://zenodo.org/api/records/7752567/access/users",
-          "access_request": "https://zenodo.org/api/records/7752567/access/request",
-          "access": "https://zenodo.org/api/records/7752567/access",
-          "communities": "https://zenodo.org/api/records/7752567/communities",
-          "communities-suggestions": "https://zenodo.org/api/records/7752567/communities-suggestions",
-          "requests": "https://zenodo.org/api/records/7752567/requests"
-        },
-        "updated": "2024-07-12T11:11:44.870767+00:00",
-        "recid": "7752567",
-        "revision": 5,
-        "files": [
-          {
-            "id": "dcdf3a96-d073-4be9-a121-c4ee1563b282",
-            "key": "pub55.pdf",
-            "size": 1146391,
-            "checksum": "md5:448ae00ec1cdabcd711ad8124223faa0",
-            "links": {
-              "self": "https://zenodo.org/api/records/7752567/files/pub55.pdf/content"
-            }
-          }
-        ],
-        "swh": {},
-        "owners": [
-          {
-            "id": "5103"
-          }
-        ],
-        "status": "published",
-        "stats": {
-          "downloads": 41,
-          "unique_downloads": 40,
-          "views": 40,
-          "unique_views": 38,
-          "version_downloads": 41,
-          "version_unique_downloads": 40,
-          "version_unique_views": 38,
-          "version_views": 40
-        },
-        "state": "done",
-        "submitted": true
-      },
-      {
-        "created": "2023-03-07T16:29:46.912379+00:00",
-        "modified": "2024-07-12T12:53:00.933619+00:00",
-        "id": 7705885,
-        "conceptrecid": "7705884",
-        "doi": "10.5281/zenodo.7705885",
-        "conceptdoi": "10.5281/zenodo.7705884",
-        "doi_url": "https://doi.org/10.5281/zenodo.7705885",
-        "metadata": {
-          "title": "1992-1993 Annual Report",
-          "doi": "10.5281/zenodo.7705885",
-          "publication_date": "1992-07-01",
-          "description": "Annual for The Commission on Preservation &amp; Access",
-          "access_right": "open",
-          "creators": [
-            {
-              "name": "Battin, Patricia",
-              "affiliation": "Council on Library Resources"
-            }
-          ],
-          "resource_type": {
-            "title": "Report",
-            "type": "publication",
-            "subtype": "report"
-          },
-          "license": {
-            "id": "cc-by-4.0"
-          },
-          "communities": [
-            {
-              "id": "clir"
-            }
-          ],
-          "relations": {
-            "version": [
-              {
-                "index": 0,
-                "is_last": true,
-                "parent": {
-                  "pid_type": "recid",
-                  "pid_value": "7705884"
-                }
-              }
-            ]
-          }
-        },
-        "title": "1992-1993 Annual Report",
-        "links": {
-          "self": "https://zenodo.org/api/records/7705885",
-          "self_html": "https://zenodo.org/records/7705885",
-          "preview_html": "https://zenodo.org/records/7705885?preview=1",
-          "doi": "https://doi.org/10.5281/zenodo.7705885",
-          "self_doi": "https://doi.org/10.5281/zenodo.7705885",
-          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7705885",
-          "reserve_doi": "https://zenodo.org/api/records/7705885/draft/pids/doi",
-          "parent": "https://zenodo.org/api/records/7705884",
-          "parent_html": "https://zenodo.org/records/7705884",
-          "parent_doi": "https://doi.org/10.5281/zenodo.7705884",
-          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7705884",
-          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:7705885/manifest",
-          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:7705885/sequence/default",
-          "files": "https://zenodo.org/api/records/7705885/files",
-          "media_files": "https://zenodo.org/api/records/7705885/media-files",
-          "thumbnails": {
-            "10": "https://zenodo.org/api/iiif/record:7705885:1992---1993-Annual-Report.pdf/full/%5E10,/0/default.jpg",
-            "50": "https://zenodo.org/api/iiif/record:7705885:1992---1993-Annual-Report.pdf/full/%5E50,/0/default.jpg",
-            "100": "https://zenodo.org/api/iiif/record:7705885:1992---1993-Annual-Report.pdf/full/%5E100,/0/default.jpg",
-            "250": "https://zenodo.org/api/iiif/record:7705885:1992---1993-Annual-Report.pdf/full/%5E250,/0/default.jpg",
-            "750": "https://zenodo.org/api/iiif/record:7705885:1992---1993-Annual-Report.pdf/full/%5E750,/0/default.jpg",
-            "1200": "https://zenodo.org/api/iiif/record:7705885:1992---1993-Annual-Report.pdf/full/%5E1200,/0/default.jpg"
-          },
-          "archive": "https://zenodo.org/api/records/7705885/files-archive",
-          "archive_media": "https://zenodo.org/api/records/7705885/media-files-archive",
-          "latest": "https://zenodo.org/api/records/7705885/versions/latest",
-          "latest_html": "https://zenodo.org/records/7705885/latest",
-          "versions": "https://zenodo.org/api/records/7705885/versions",
-          "draft": "https://zenodo.org/api/records/7705885/draft",
-          "access_links": "https://zenodo.org/api/records/7705885/access/links",
-          "access_grants": "https://zenodo.org/api/records/7705885/access/grants",
-          "access_users": "https://zenodo.org/api/records/7705885/access/users",
-          "access_request": "https://zenodo.org/api/records/7705885/access/request",
-          "access": "https://zenodo.org/api/records/7705885/access",
-          "communities": "https://zenodo.org/api/records/7705885/communities",
-          "communities-suggestions": "https://zenodo.org/api/records/7705885/communities-suggestions",
-          "requests": "https://zenodo.org/api/records/7705885/requests"
-        },
-        "updated": "2024-07-12T12:53:00.933619+00:00",
-        "recid": "7705885",
-        "revision": 5,
-        "files": [
-          {
-            "id": "73a2ff49-61b9-4685-9ec8-c4f6ea6d654c",
-            "key": "1992---1993-Annual-Report.pdf",
-            "size": 16953555,
-            "checksum": "md5:cb6fa641eb811fb05f5cce056d5293f7",
-            "links": {
-              "self": "https://zenodo.org/api/records/7705885/files/1992---1993-Annual-Report.pdf/content"
-            }
-          }
-        ],
-        "swh": {},
-        "owners": [
-          {
-            "id": "5103"
-          }
-        ],
-        "status": "published",
-        "stats": {
-          "downloads": 57,
-          "unique_downloads": 57,
-          "views": 44,
-          "unique_views": 43,
-          "version_downloads": 57,
-          "version_unique_downloads": 57,
-          "version_unique_views": 43,
-          "version_views": 44
-        },
-        "state": "done",
-        "submitted": true
-      },
-      {
-        "created": "2023-04-05T12:42:36.401298+00:00",
-        "modified": "2024-07-12T09:06:20.005187+00:00",
-        "id": 7802174,
-        "conceptrecid": "7802173",
-        "doi": "10.5281/zenodo.7802174",
-        "conceptdoi": "10.5281/zenodo.7802173",
-        "doi_url": "https://doi.org/10.5281/zenodo.7802174",
-        "metadata": {
-          "title": "The Survival of American Silent Feature Films: 1912–1929",
-          "doi": "10.5281/zenodo.7802174",
-          "publication_date": "2013-09-01",
-          "description": "<p><em>Commissioned for and sponsored by the National Film Preservation Board, Library of Congress.</em></p>\n\n<p>The era of the American silent feature film lasted from 1912 until 1929. During that time, filmmakers established the language of cinema, and the motion pictures they created reached a height of artistic sophistication. These films, with their recognizable stars and high production values, spread American culture around the world. Silent feature films disappeared from sight soon after the coming of sound, and many vanished from existence.</p>\n\n<p>This report focuses on those titles that have managed to survive to the present day and represents the first comprehensive survey of the survival of American silent feature films. Mr. Pierce&rsquo;s findings tell us that only 14% of the feature films produced in the United States during the period 1912&ndash;1929 survive in the format in which they were originally produced and distributed, i.e., as complete works on 35mm film. Another 11% survive in full-length foreign versions or on film formats of lesser image quality such as 16mm and other smaller gauge formats.</p>\n\n<p>Mr. Pierce has also created a valuable da&shy;tabase of location information on the archival film holdings identified in the course of his research. See&nbsp;<a href=\"http://www.loc.gov/film\">www.loc.gov/film</a>.</p>",
-          "access_right": "open",
-          "creators": [
-            {
-              "name": "Pierce, David",
+              "name": "Fox-Amato, Matthew",
               "affiliation": null
             }
           ],
           "resource_type": {
-            "title": "Report",
-            "type": "publication",
-            "subtype": "report"
+            "title": "Presentation",
+            "type": "presentation"
+          },
+          "meeting": {
+            "title": "Looking Forward to the Past: A CLIR-Mellon Fellows Reunion Symposium",
+            "place": "ST. LOUIS, MISSOURI"
           },
           "license": {
-            "id": "cc-by-3.0"
+            "id": "cc-by-4.0"
           },
           "communities": [
             {
@@ -675,63 +962,90 @@
                 "is_last": true,
                 "parent": {
                   "pid_type": "recid",
-                  "pid_value": "7802173"
+                  "pid_value": "12636840"
                 }
               }
             ]
           }
         },
-        "title": "The Survival of American Silent Feature Films: 1912–1929",
+        "title": "Panel and open discussion: New Archival Approaches to the History and Memory of Atlantic World Slavery",
         "links": {
-          "self": "https://zenodo.org/api/records/7802174",
-          "self_html": "https://zenodo.org/records/7802174",
-          "preview_html": "https://zenodo.org/records/7802174?preview=1",
-          "doi": "https://doi.org/10.5281/zenodo.7802174",
-          "self_doi": "https://doi.org/10.5281/zenodo.7802174",
-          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7802174",
-          "reserve_doi": "https://zenodo.org/api/records/7802174/draft/pids/doi",
-          "parent": "https://zenodo.org/api/records/7802173",
-          "parent_html": "https://zenodo.org/records/7802173",
-          "parent_doi": "https://doi.org/10.5281/zenodo.7802173",
-          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7802173",
-          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:7802174/manifest",
-          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:7802174/sequence/default",
-          "files": "https://zenodo.org/api/records/7802174/files",
-          "media_files": "https://zenodo.org/api/records/7802174/media-files",
+          "self": "https://zenodo.org/api/records/12636841",
+          "self_html": "https://zenodo.org/records/12636841",
+          "preview_html": "https://zenodo.org/records/12636841?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.12636841",
+          "self_doi": "https://doi.org/10.5281/zenodo.12636841",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.12636841",
+          "reserve_doi": "https://zenodo.org/api/records/12636841/draft/pids/doi",
+          "parent": "https://zenodo.org/api/records/12636840",
+          "parent_html": "https://zenodo.org/records/12636840",
+          "parent_doi": "https://doi.org/10.5281/zenodo.12636840",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.12636840",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:12636841/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:12636841/sequence/default",
+          "files": "https://zenodo.org/api/records/12636841/files",
+          "media_files": "https://zenodo.org/api/records/12636841/media-files",
           "thumbnails": {
-            "10": "https://zenodo.org/api/iiif/record:7802174:pub158.pdf/full/%5E10,/0/default.jpg",
-            "50": "https://zenodo.org/api/iiif/record:7802174:pub158.pdf/full/%5E50,/0/default.jpg",
-            "100": "https://zenodo.org/api/iiif/record:7802174:pub158.pdf/full/%5E100,/0/default.jpg",
-            "250": "https://zenodo.org/api/iiif/record:7802174:pub158.pdf/full/%5E250,/0/default.jpg",
-            "750": "https://zenodo.org/api/iiif/record:7802174:pub158.pdf/full/%5E750,/0/default.jpg",
-            "1200": "https://zenodo.org/api/iiif/record:7802174:pub158.pdf/full/%5E1200,/0/default.jpg"
+            "10": "https://zenodo.org/api/iiif/record:12636841:Heerman%20CLIR.pptx.pdf/full/%5E10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:12636841:Heerman%20CLIR.pptx.pdf/full/%5E50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:12636841:Heerman%20CLIR.pptx.pdf/full/%5E100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:12636841:Heerman%20CLIR.pptx.pdf/full/%5E250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:12636841:Heerman%20CLIR.pptx.pdf/full/%5E750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:12636841:Heerman%20CLIR.pptx.pdf/full/%5E1200,/0/default.jpg"
           },
-          "archive": "https://zenodo.org/api/records/7802174/files-archive",
-          "archive_media": "https://zenodo.org/api/records/7802174/media-files-archive",
-          "latest": "https://zenodo.org/api/records/7802174/versions/latest",
-          "latest_html": "https://zenodo.org/records/7802174/latest",
-          "versions": "https://zenodo.org/api/records/7802174/versions",
-          "draft": "https://zenodo.org/api/records/7802174/draft",
-          "access_links": "https://zenodo.org/api/records/7802174/access/links",
-          "access_grants": "https://zenodo.org/api/records/7802174/access/grants",
-          "access_users": "https://zenodo.org/api/records/7802174/access/users",
-          "access_request": "https://zenodo.org/api/records/7802174/access/request",
-          "access": "https://zenodo.org/api/records/7802174/access",
-          "communities": "https://zenodo.org/api/records/7802174/communities",
-          "communities-suggestions": "https://zenodo.org/api/records/7802174/communities-suggestions",
-          "requests": "https://zenodo.org/api/records/7802174/requests"
+          "archive": "https://zenodo.org/api/records/12636841/files-archive",
+          "archive_media": "https://zenodo.org/api/records/12636841/media-files-archive",
+          "latest": "https://zenodo.org/api/records/12636841/versions/latest",
+          "latest_html": "https://zenodo.org/records/12636841/latest",
+          "versions": "https://zenodo.org/api/records/12636841/versions",
+          "draft": "https://zenodo.org/api/records/12636841/draft",
+          "access_links": "https://zenodo.org/api/records/12636841/access/links",
+          "access_grants": "https://zenodo.org/api/records/12636841/access/grants",
+          "access_users": "https://zenodo.org/api/records/12636841/access/users",
+          "access_request": "https://zenodo.org/api/records/12636841/access/request",
+          "access": "https://zenodo.org/api/records/12636841/access",
+          "communities": "https://zenodo.org/api/records/12636841/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/12636841/communities-suggestions",
+          "requests": "https://zenodo.org/api/records/12636841/requests"
         },
-        "updated": "2024-07-12T09:06:20.005187+00:00",
-        "recid": "7802174",
-        "revision": 5,
+        "updated": "2024-07-03T17:35:24.163754+00:00",
+        "recid": "12636841",
+        "revision": 4,
         "files": [
           {
-            "id": "cd8d0cb7-fdaa-4ffd-aefb-b971f624aa23",
-            "key": "pub158.pdf",
-            "size": 1652198,
-            "checksum": "md5:38f7074335960a1f458c6a8290da1467",
+            "id": "8418f31f-48d4-4f97-b555-b7ebd14782ca",
+            "key": "Heerman CLIR.pptx.pdf",
+            "size": 2521888,
+            "checksum": "md5:b3c9c6c30a18195fc01cb8321ea99e22",
             "links": {
-              "self": "https://zenodo.org/api/records/7802174/files/pub158.pdf/content"
+              "self": "https://zenodo.org/api/records/12636841/files/Heerman CLIR.pptx.pdf/content"
+            }
+          },
+          {
+            "id": "7629e40b-6ca5-40c7-8f3e-65316abeee47",
+            "key": "CLIR Mellon, DTW, Panel Discussion.pptx.pdf",
+            "size": 230238,
+            "checksum": "md5:a64c816d1528c241988c554a49330c22",
+            "links": {
+              "self": "https://zenodo.org/api/records/12636841/files/CLIR Mellon, DTW, Panel Discussion.pptx.pdf/content"
+            }
+          },
+          {
+            "id": "ef224b27-fc83-4b7d-ac65-184d292f1c24",
+            "key": "Panel Agenda_CLIR-Mellon_AtlanticWorldSlavery.docx - Google Docs.pdf",
+            "size": 43018,
+            "checksum": "md5:dcc97fd6e53e02c0b51bd5378c1242f0",
+            "links": {
+              "self": "https://zenodo.org/api/records/12636841/files/Panel Agenda_CLIR-Mellon_AtlanticWorldSlavery.docx - Google Docs.pdf/content"
+            }
+          },
+          {
+            "id": "f30dbae9-71ac-48df-a5ed-688c0bd2815c",
+            "key": "Fox-Amato_CLIR-Mellon Reunion Symposium.pptx.pdf",
+            "size": 3950496,
+            "checksum": "md5:4afdafe02b9e066f8b3b65883c1b8923",
+            "links": {
+              "self": "https://zenodo.org/api/records/12636841/files/Fox-Amato_CLIR-Mellon Reunion Symposium.pptx.pdf/content"
             }
           }
         ],
@@ -743,42 +1057,46 @@
         ],
         "status": "published",
         "stats": {
-          "downloads": 43,
-          "unique_downloads": 43,
-          "views": 34,
-          "unique_views": 34,
-          "version_downloads": 43,
-          "version_unique_downloads": 43,
-          "version_unique_views": 34,
-          "version_views": 34
+          "downloads": 48,
+          "unique_downloads": 45,
+          "views": 65,
+          "unique_views": 64,
+          "version_downloads": 48,
+          "version_unique_downloads": 45,
+          "version_unique_views": 64,
+          "version_views": 65
         },
         "state": "done",
         "submitted": true
       },
       {
-        "created": "2023-02-14T13:59:31.544014+00:00",
-        "modified": "2024-07-12T15:35:49.922621+00:00",
-        "id": 7640036,
-        "conceptrecid": "7640035",
-        "doi": "10.5281/zenodo.7640036",
-        "conceptdoi": "10.5281/zenodo.7640035",
-        "doi_url": "https://doi.org/10.5281/zenodo.7640036",
+        "created": "2024-07-03T15:24:55.548914+00:00",
+        "modified": "2024-07-03T15:24:55.979777+00:00",
+        "id": 12636400,
+        "conceptrecid": "12636399",
+        "doi": "10.5281/zenodo.12636400",
+        "conceptdoi": "10.5281/zenodo.12636399",
+        "doi_url": "https://doi.org/10.5281/zenodo.12636400",
         "metadata": {
-          "title": "ANNUAL REPORT TO FOUNDATIONS: July 1, 1980 - June 30, 1981",
-          "doi": "10.5281/zenodo.7640036",
-          "publication_date": "1981-07-01",
-          "description": "<p>Annual report to Foundations for period&nbsp;July 1, 1980 - June 30, 1981</p>",
+          "title": "Information resources: Has the digital revolution made the world of global academic research bigger or smaller? RILM: A case study in the field of music",
+          "doi": "10.5281/zenodo.12636400",
+          "publication_date": "2022-05-24",
+          "description": "<p>My 2003 CLIR report addressed the questions that the digital revolution raises at a time when use of the Internet was surging. My subsequent work as an editor of RILM (R&eacute;pertoire Internationale de Litt&eacute;rature Musicale), a global online music bibliography that covers all fields of music, has been a journey through the far-reaching changes that globalization and digitalization have imposed on academic research in the last twenty years. RILM was conceived in 1966 as a global research tool modeled after the UNESCO idea, and its wide scope was ahead of its time. How has this model fared in the era of digital globalization?</p>",
           "access_right": "open",
           "creators": [
             {
-              "name": "Haas, Warren J",
+              "name": "Rose, Maria I.",
               "affiliation": null
             }
           ],
           "resource_type": {
-            "title": "Report",
-            "type": "publication",
-            "subtype": "report"
+            "title": "Presentation",
+            "type": "presentation"
+          },
+          "meeting": {
+            "title": "Looking Forward to the Past: A CLIR-Mellon Fellows Reunion Symposium",
+            "dates": "24-28 May 2022",
+            "place": "ST. LOUIS, MISSOURI"
           },
           "license": {
             "id": "cc-by-4.0"
@@ -795,63 +1113,72 @@
                 "is_last": true,
                 "parent": {
                   "pid_type": "recid",
-                  "pid_value": "7640035"
+                  "pid_value": "12636399"
                 }
               }
             ]
           }
         },
-        "title": "ANNUAL REPORT TO FOUNDATIONS: July 1, 1980 - June 30, 1981",
+        "title": "Information resources: Has the digital revolution made the world of global academic research bigger or smaller? RILM: A case study in the field of music",
         "links": {
-          "self": "https://zenodo.org/api/records/7640036",
-          "self_html": "https://zenodo.org/records/7640036",
-          "preview_html": "https://zenodo.org/records/7640036?preview=1",
-          "doi": "https://doi.org/10.5281/zenodo.7640036",
-          "self_doi": "https://doi.org/10.5281/zenodo.7640036",
-          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7640036",
-          "reserve_doi": "https://zenodo.org/api/records/7640036/draft/pids/doi",
-          "parent": "https://zenodo.org/api/records/7640035",
-          "parent_html": "https://zenodo.org/records/7640035",
-          "parent_doi": "https://doi.org/10.5281/zenodo.7640035",
-          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7640035",
-          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:7640036/manifest",
-          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:7640036/sequence/default",
-          "files": "https://zenodo.org/api/records/7640036/files",
-          "media_files": "https://zenodo.org/api/records/7640036/media-files",
+          "self": "https://zenodo.org/api/records/12636400",
+          "self_html": "https://zenodo.org/records/12636400",
+          "preview_html": "https://zenodo.org/records/12636400?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.12636400",
+          "self_doi": "https://doi.org/10.5281/zenodo.12636400",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.12636400",
+          "reserve_doi": "https://zenodo.org/api/records/12636400/draft/pids/doi",
+          "parent": "https://zenodo.org/api/records/12636399",
+          "parent_html": "https://zenodo.org/records/12636399",
+          "parent_doi": "https://doi.org/10.5281/zenodo.12636399",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.12636399",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:12636400/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:12636400/sequence/default",
+          "files": "https://zenodo.org/api/records/12636400/files",
+          "media_files": "https://zenodo.org/api/records/12636400/media-files",
           "thumbnails": {
-            "10": "https://zenodo.org/api/iiif/record:7640036:1980---1981-Annual-Report-to-Foundations.pdf/full/%5E10,/0/default.jpg",
-            "50": "https://zenodo.org/api/iiif/record:7640036:1980---1981-Annual-Report-to-Foundations.pdf/full/%5E50,/0/default.jpg",
-            "100": "https://zenodo.org/api/iiif/record:7640036:1980---1981-Annual-Report-to-Foundations.pdf/full/%5E100,/0/default.jpg",
-            "250": "https://zenodo.org/api/iiif/record:7640036:1980---1981-Annual-Report-to-Foundations.pdf/full/%5E250,/0/default.jpg",
-            "750": "https://zenodo.org/api/iiif/record:7640036:1980---1981-Annual-Report-to-Foundations.pdf/full/%5E750,/0/default.jpg",
-            "1200": "https://zenodo.org/api/iiif/record:7640036:1980---1981-Annual-Report-to-Foundations.pdf/full/%5E1200,/0/default.jpg"
+            "10": "https://zenodo.org/api/iiif/record:12636400:CLIR%202022%20Paper.docx.pdf/full/%5E10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:12636400:CLIR%202022%20Paper.docx.pdf/full/%5E50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:12636400:CLIR%202022%20Paper.docx.pdf/full/%5E100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:12636400:CLIR%202022%20Paper.docx.pdf/full/%5E250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:12636400:CLIR%202022%20Paper.docx.pdf/full/%5E750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:12636400:CLIR%202022%20Paper.docx.pdf/full/%5E1200,/0/default.jpg"
           },
-          "archive": "https://zenodo.org/api/records/7640036/files-archive",
-          "archive_media": "https://zenodo.org/api/records/7640036/media-files-archive",
-          "latest": "https://zenodo.org/api/records/7640036/versions/latest",
-          "latest_html": "https://zenodo.org/records/7640036/latest",
-          "versions": "https://zenodo.org/api/records/7640036/versions",
-          "draft": "https://zenodo.org/api/records/7640036/draft",
-          "access_links": "https://zenodo.org/api/records/7640036/access/links",
-          "access_grants": "https://zenodo.org/api/records/7640036/access/grants",
-          "access_users": "https://zenodo.org/api/records/7640036/access/users",
-          "access_request": "https://zenodo.org/api/records/7640036/access/request",
-          "access": "https://zenodo.org/api/records/7640036/access",
-          "communities": "https://zenodo.org/api/records/7640036/communities",
-          "communities-suggestions": "https://zenodo.org/api/records/7640036/communities-suggestions",
-          "requests": "https://zenodo.org/api/records/7640036/requests"
+          "archive": "https://zenodo.org/api/records/12636400/files-archive",
+          "archive_media": "https://zenodo.org/api/records/12636400/media-files-archive",
+          "latest": "https://zenodo.org/api/records/12636400/versions/latest",
+          "latest_html": "https://zenodo.org/records/12636400/latest",
+          "versions": "https://zenodo.org/api/records/12636400/versions",
+          "draft": "https://zenodo.org/api/records/12636400/draft",
+          "access_links": "https://zenodo.org/api/records/12636400/access/links",
+          "access_grants": "https://zenodo.org/api/records/12636400/access/grants",
+          "access_users": "https://zenodo.org/api/records/12636400/access/users",
+          "access_request": "https://zenodo.org/api/records/12636400/access/request",
+          "access": "https://zenodo.org/api/records/12636400/access",
+          "communities": "https://zenodo.org/api/records/12636400/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/12636400/communities-suggestions",
+          "requests": "https://zenodo.org/api/records/12636400/requests"
         },
-        "updated": "2024-07-12T15:35:49.922621+00:00",
-        "recid": "7640036",
-        "revision": 5,
+        "updated": "2024-07-03T15:24:55.979777+00:00",
+        "recid": "12636400",
+        "revision": 4,
         "files": [
           {
-            "id": "3f0be6ae-2ea6-4919-a14e-28c4451e2305",
-            "key": "1980---1981-Annual-Report-to-Foundations.pdf",
-            "size": 2344549,
-            "checksum": "md5:7dd4b7a9bf3c72b7b381870e06e4d8fb",
+            "id": "29ac4aca-6fcc-4f9d-a883-95a6119c9a54",
+            "key": "CLIR 2022 Paper.docx.pdf",
+            "size": 93326,
+            "checksum": "md5:2ae7578744833d6c6643f1df98004c73",
             "links": {
-              "self": "https://zenodo.org/api/records/7640036/files/1980---1981-Annual-Report-to-Foundations.pdf/content"
+              "self": "https://zenodo.org/api/records/12636400/files/CLIR 2022 Paper.docx.pdf/content"
+            }
+          },
+          {
+            "id": "26a1d1e7-eeb0-4efd-8a60-0e736813cda5",
+            "key": "Information Resources.mp3",
+            "size": 6506880,
+            "checksum": "md5:5067c114e37169435b1c354be45b699e",
+            "links": {
+              "self": "https://zenodo.org/api/records/12636400/files/Information Resources.mp3/content"
             }
           }
         ],
@@ -863,169 +1190,46 @@
         ],
         "status": "published",
         "stats": {
-          "downloads": 49,
-          "unique_downloads": 49,
-          "views": 46,
-          "unique_views": 46,
-          "version_downloads": 49,
-          "version_unique_downloads": 49,
-          "version_unique_views": 46,
-          "version_views": 46
+          "downloads": 27,
+          "unique_downloads": 27,
+          "views": 45,
+          "unique_views": 44,
+          "version_downloads": 27,
+          "version_unique_downloads": 27,
+          "version_unique_views": 44,
+          "version_views": 45
         },
         "state": "done",
         "submitted": true
       },
       {
-        "created": "2023-03-07T16:31:22.509517+00:00",
-        "modified": "2024-07-12T12:52:59.802664+00:00",
-        "id": 7705899,
-        "conceptrecid": "7705898",
-        "doi": "10.5281/zenodo.7705899",
-        "conceptdoi": "10.5281/zenodo.7705898",
-        "doi_url": "https://doi.org/10.5281/zenodo.7705899",
+        "created": "2024-07-03T15:13:10.215091+00:00",
+        "modified": "2024-07-03T15:13:13.021445+00:00",
+        "id": 12636300,
+        "conceptrecid": "12636299",
+        "doi": "10.5281/zenodo.12636300",
+        "conceptdoi": "10.5281/zenodo.12636299",
+        "doi_url": "https://doi.org/10.5281/zenodo.12636300",
         "metadata": {
-          "title": "36th Annual Report",
-          "doi": "10.5281/zenodo.7705899",
-          "publication_date": "1992-07-01",
-          "description": "The 36th Annual Report for the Council on Library Resources",
+          "title": "Teaching Physical Archival Research in the Digital Age",
+          "doi": "10.5281/zenodo.12636300",
+          "publication_date": "2022-05-24",
+          "description": "<p>Over the past five years I have had the opportunity to advise dozens of short archival research projects using the collection of the Musiksammlung at the &Ouml;sterreichische Nationalbibliothek in Vienna, Austria, the primary archive where I completed my CLIR Mellon Fellowship. Despite the prevalence of freely available digital archival materials, when confronted with original sources such as manuscripts in a well-known composer&rsquo;s hand, medieval sacred chant books, or annotations filling the margins of &eacute;tude books, students have expressed excitement and engagement that goes far beyond anything that occurs in a traditional classroom, or while examining digital documents.</p>\n<p>In this essay I offer some suggestions on working with college students on archival projects, as well as speculations on the benefits of encouraging active use of physical archives by modern students. Students who live vast portions of their lives online can benefit as much as, if not more than, earlier generations by studying physical archival documents. Encounters with original sources can increase comprehension, excitement, and creativity for students longing for educational experiences that create a feeling of authenticity. &nbsp;</p>",
           "access_right": "open",
           "creators": [
             {
-              "name": "Penniman, W. David",
-              "affiliation": "Council on Library Resources"
-            }
-          ],
-          "resource_type": {
-            "title": "Report",
-            "type": "publication",
-            "subtype": "report"
-          },
-          "license": {
-            "id": "cc-by-4.0"
-          },
-          "communities": [
-            {
-              "id": "clir"
-            }
-          ],
-          "relations": {
-            "version": [
-              {
-                "index": 0,
-                "is_last": true,
-                "parent": {
-                  "pid_type": "recid",
-                  "pid_value": "7705898"
-                }
-              }
-            ]
-          }
-        },
-        "title": "36th Annual Report",
-        "links": {
-          "self": "https://zenodo.org/api/records/7705899",
-          "self_html": "https://zenodo.org/records/7705899",
-          "preview_html": "https://zenodo.org/records/7705899?preview=1",
-          "doi": "https://doi.org/10.5281/zenodo.7705899",
-          "self_doi": "https://doi.org/10.5281/zenodo.7705899",
-          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7705899",
-          "reserve_doi": "https://zenodo.org/api/records/7705899/draft/pids/doi",
-          "parent": "https://zenodo.org/api/records/7705898",
-          "parent_html": "https://zenodo.org/records/7705898",
-          "parent_doi": "https://doi.org/10.5281/zenodo.7705898",
-          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7705898",
-          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:7705899/manifest",
-          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:7705899/sequence/default",
-          "files": "https://zenodo.org/api/records/7705899/files",
-          "media_files": "https://zenodo.org/api/records/7705899/media-files",
-          "thumbnails": {
-            "10": "https://zenodo.org/api/iiif/record:7705899:1992---36th-Annual-Report.pdf/full/%5E10,/0/default.jpg",
-            "50": "https://zenodo.org/api/iiif/record:7705899:1992---36th-Annual-Report.pdf/full/%5E50,/0/default.jpg",
-            "100": "https://zenodo.org/api/iiif/record:7705899:1992---36th-Annual-Report.pdf/full/%5E100,/0/default.jpg",
-            "250": "https://zenodo.org/api/iiif/record:7705899:1992---36th-Annual-Report.pdf/full/%5E250,/0/default.jpg",
-            "750": "https://zenodo.org/api/iiif/record:7705899:1992---36th-Annual-Report.pdf/full/%5E750,/0/default.jpg",
-            "1200": "https://zenodo.org/api/iiif/record:7705899:1992---36th-Annual-Report.pdf/full/%5E1200,/0/default.jpg"
-          },
-          "archive": "https://zenodo.org/api/records/7705899/files-archive",
-          "archive_media": "https://zenodo.org/api/records/7705899/media-files-archive",
-          "latest": "https://zenodo.org/api/records/7705899/versions/latest",
-          "latest_html": "https://zenodo.org/records/7705899/latest",
-          "versions": "https://zenodo.org/api/records/7705899/versions",
-          "draft": "https://zenodo.org/api/records/7705899/draft",
-          "access_links": "https://zenodo.org/api/records/7705899/access/links",
-          "access_grants": "https://zenodo.org/api/records/7705899/access/grants",
-          "access_users": "https://zenodo.org/api/records/7705899/access/users",
-          "access_request": "https://zenodo.org/api/records/7705899/access/request",
-          "access": "https://zenodo.org/api/records/7705899/access",
-          "communities": "https://zenodo.org/api/records/7705899/communities",
-          "communities-suggestions": "https://zenodo.org/api/records/7705899/communities-suggestions",
-          "requests": "https://zenodo.org/api/records/7705899/requests"
-        },
-        "updated": "2024-07-12T12:52:59.802664+00:00",
-        "recid": "7705899",
-        "revision": 5,
-        "files": [
-          {
-            "id": "8d1375fb-ee6a-42a9-9271-a2ca3d765120",
-            "key": "1992---36th-Annual-Report.pdf",
-            "size": 2117632,
-            "checksum": "md5:44b08e916125ca53614b12e232bc33f3",
-            "links": {
-              "self": "https://zenodo.org/api/records/7705899/files/1992---36th-Annual-Report.pdf/content"
-            }
-          }
-        ],
-        "swh": {},
-        "owners": [
-          {
-            "id": "5103"
-          }
-        ],
-        "status": "published",
-        "stats": {
-          "downloads": 53,
-          "unique_downloads": 52,
-          "views": 52,
-          "unique_views": 51,
-          "version_downloads": 53,
-          "version_unique_downloads": 52,
-          "version_unique_views": 51,
-          "version_views": 52
-        },
-        "state": "done",
-        "submitted": true
-      },
-      {
-        "created": "2023-03-28T19:12:40.408543+00:00",
-        "modified": "2024-07-12T10:00:26.418000+00:00",
-        "id": 7779250,
-        "conceptrecid": "7779249",
-        "doi": "10.5281/zenodo.7779250",
-        "conceptdoi": "10.5281/zenodo.7779249",
-        "doi_url": "https://doi.org/10.5281/zenodo.7779250",
-        "metadata": {
-          "title": "A Survey of Digital Cultural Heritage Initiatives and Their Sustainability Concerns",
-          "doi": "10.5281/zenodo.7779250",
-          "publication_date": "2003-06-02",
-          "description": "<p>In 2002, CLIR commissioned a survey of North American-based digital cultural heritage initiatives (DCHIs). The purpose of the survey was to identify the scope, financing, organizational structure, and sustainability of DCHIs. To gain a funder&rsquo;s perspective on these initiatives, the survey also included a few public and private funding organizations that support projects with a digital cultural heritage component. The survey was a preliminary step in a larger effort aimed at developing recommendations for a coordinated strategy to sustain and strengthen digital cultural heritage initiatives and their by-products.</p>\n\n<p>Survey results and recommendations are in this report.</p>",
-          "access_right": "open",
-          "creators": [
-            {
-              "name": "Zorich, Diane M.",
+              "name": "Johnson, Nicholas",
               "affiliation": null
             }
           ],
-          "keywords": [
-            "Cultural Background",
-            "Cultural Centers",
-            "Information Management",
-            "Information Technology",
-            "Program Evaluation"
-          ],
           "resource_type": {
-            "title": "Report",
-            "type": "publication",
-            "subtype": "report"
+            "title": "Presentation",
+            "type": "presentation"
+          },
+          "meeting": {
+            "title": "Looking Forward to the Past: A CLIR-Mellon Fellows Reunion Symposium",
+            "dates": "24-28 May 2022",
+            "place": "ST. LOUIS, MISSOURI"
           },
           "license": {
             "id": "cc-by-4.0"
@@ -1042,63 +1246,72 @@
                 "is_last": true,
                 "parent": {
                   "pid_type": "recid",
-                  "pid_value": "7779249"
+                  "pid_value": "12636299"
                 }
               }
             ]
           }
         },
-        "title": "A Survey of Digital Cultural Heritage Initiatives and Their Sustainability Concerns",
+        "title": "Teaching Physical Archival Research in the Digital Age",
         "links": {
-          "self": "https://zenodo.org/api/records/7779250",
-          "self_html": "https://zenodo.org/records/7779250",
-          "preview_html": "https://zenodo.org/records/7779250?preview=1",
-          "doi": "https://doi.org/10.5281/zenodo.7779250",
-          "self_doi": "https://doi.org/10.5281/zenodo.7779250",
-          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7779250",
-          "reserve_doi": "https://zenodo.org/api/records/7779250/draft/pids/doi",
-          "parent": "https://zenodo.org/api/records/7779249",
-          "parent_html": "https://zenodo.org/records/7779249",
-          "parent_doi": "https://doi.org/10.5281/zenodo.7779249",
-          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7779249",
-          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:7779250/manifest",
-          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:7779250/sequence/default",
-          "files": "https://zenodo.org/api/records/7779250/files",
-          "media_files": "https://zenodo.org/api/records/7779250/media-files",
+          "self": "https://zenodo.org/api/records/12636300",
+          "self_html": "https://zenodo.org/records/12636300",
+          "preview_html": "https://zenodo.org/records/12636300?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.12636300",
+          "self_doi": "https://doi.org/10.5281/zenodo.12636300",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.12636300",
+          "reserve_doi": "https://zenodo.org/api/records/12636300/draft/pids/doi",
+          "parent": "https://zenodo.org/api/records/12636299",
+          "parent_html": "https://zenodo.org/records/12636299",
+          "parent_doi": "https://doi.org/10.5281/zenodo.12636299",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.12636299",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:12636300/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:12636300/sequence/default",
+          "files": "https://zenodo.org/api/records/12636300/files",
+          "media_files": "https://zenodo.org/api/records/12636300/media-files",
           "thumbnails": {
-            "10": "https://zenodo.org/api/iiif/record:7779250:pub118.pdf/full/%5E10,/0/default.jpg",
-            "50": "https://zenodo.org/api/iiif/record:7779250:pub118.pdf/full/%5E50,/0/default.jpg",
-            "100": "https://zenodo.org/api/iiif/record:7779250:pub118.pdf/full/%5E100,/0/default.jpg",
-            "250": "https://zenodo.org/api/iiif/record:7779250:pub118.pdf/full/%5E250,/0/default.jpg",
-            "750": "https://zenodo.org/api/iiif/record:7779250:pub118.pdf/full/%5E750,/0/default.jpg",
-            "1200": "https://zenodo.org/api/iiif/record:7779250:pub118.pdf/full/%5E1200,/0/default.jpg"
+            "10": "https://zenodo.org/api/iiif/record:12636300:Teaching%20Physical%20Archival%20Research%20in%20the%20Digital%20Age.docx.pdf/full/%5E10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:12636300:Teaching%20Physical%20Archival%20Research%20in%20the%20Digital%20Age.docx.pdf/full/%5E50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:12636300:Teaching%20Physical%20Archival%20Research%20in%20the%20Digital%20Age.docx.pdf/full/%5E100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:12636300:Teaching%20Physical%20Archival%20Research%20in%20the%20Digital%20Age.docx.pdf/full/%5E250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:12636300:Teaching%20Physical%20Archival%20Research%20in%20the%20Digital%20Age.docx.pdf/full/%5E750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:12636300:Teaching%20Physical%20Archival%20Research%20in%20the%20Digital%20Age.docx.pdf/full/%5E1200,/0/default.jpg"
           },
-          "archive": "https://zenodo.org/api/records/7779250/files-archive",
-          "archive_media": "https://zenodo.org/api/records/7779250/media-files-archive",
-          "latest": "https://zenodo.org/api/records/7779250/versions/latest",
-          "latest_html": "https://zenodo.org/records/7779250/latest",
-          "versions": "https://zenodo.org/api/records/7779250/versions",
-          "draft": "https://zenodo.org/api/records/7779250/draft",
-          "access_links": "https://zenodo.org/api/records/7779250/access/links",
-          "access_grants": "https://zenodo.org/api/records/7779250/access/grants",
-          "access_users": "https://zenodo.org/api/records/7779250/access/users",
-          "access_request": "https://zenodo.org/api/records/7779250/access/request",
-          "access": "https://zenodo.org/api/records/7779250/access",
-          "communities": "https://zenodo.org/api/records/7779250/communities",
-          "communities-suggestions": "https://zenodo.org/api/records/7779250/communities-suggestions",
-          "requests": "https://zenodo.org/api/records/7779250/requests"
+          "archive": "https://zenodo.org/api/records/12636300/files-archive",
+          "archive_media": "https://zenodo.org/api/records/12636300/media-files-archive",
+          "latest": "https://zenodo.org/api/records/12636300/versions/latest",
+          "latest_html": "https://zenodo.org/records/12636300/latest",
+          "versions": "https://zenodo.org/api/records/12636300/versions",
+          "draft": "https://zenodo.org/api/records/12636300/draft",
+          "access_links": "https://zenodo.org/api/records/12636300/access/links",
+          "access_grants": "https://zenodo.org/api/records/12636300/access/grants",
+          "access_users": "https://zenodo.org/api/records/12636300/access/users",
+          "access_request": "https://zenodo.org/api/records/12636300/access/request",
+          "access": "https://zenodo.org/api/records/12636300/access",
+          "communities": "https://zenodo.org/api/records/12636300/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/12636300/communities-suggestions",
+          "requests": "https://zenodo.org/api/records/12636300/requests"
         },
-        "updated": "2024-07-12T10:00:26.418000+00:00",
-        "recid": "7779250",
-        "revision": 5,
+        "updated": "2024-07-03T15:13:13.021445+00:00",
+        "recid": "12636300",
+        "revision": 4,
         "files": [
           {
-            "id": "644afcde-0707-433b-af5a-9d4cc42887b3",
-            "key": "pub118.pdf",
-            "size": 506480,
-            "checksum": "md5:3f931f34620cdbe27f4ed124db5b55ba",
+            "id": "3813b508-d7a2-415f-9300-259c9ca8ddab",
+            "key": "Teaching Physical Archival Research in the Digital Age.docx.pdf",
+            "size": 72508,
+            "checksum": "md5:07669141ca661ca4d17a97fd3b9a6d17",
             "links": {
-              "self": "https://zenodo.org/api/records/7779250/files/pub118.pdf/content"
+              "self": "https://zenodo.org/api/records/12636300/files/Teaching Physical Archival Research in the Digital Age.docx.pdf/content"
+            }
+          },
+          {
+            "id": "54feabea-3417-4fc3-ad81-4b271cf69f6d",
+            "key": "Teaching Physical Archival Research in the Digital Age.mp3",
+            "size": 3441201,
+            "checksum": "md5:ae2c404a8da3fba9fde6a0f008336072",
+            "links": {
+              "self": "https://zenodo.org/api/records/12636300/files/Teaching Physical Archival Research in the Digital Age.mp3/content"
             }
           }
         ],
@@ -1110,155 +1323,14 @@
         ],
         "status": "published",
         "stats": {
-          "downloads": 104,
-          "unique_downloads": 97,
-          "views": 38,
-          "unique_views": 38,
-          "version_downloads": 102,
-          "version_unique_downloads": 95,
-          "version_unique_views": 38,
-          "version_views": 38
-        },
-        "state": "done",
-        "submitted": true
-      },
-      {
-        "created": "2023-04-05T19:54:39.169318+00:00",
-        "modified": "2024-07-12T09:01:09.949003+00:00",
-        "id": 7803548,
-        "conceptrecid": "7803547",
-        "doi": "10.5281/zenodo.7803548",
-        "conceptdoi": "10.5281/zenodo.7803547",
-        "doi_url": "https://doi.org/10.5281/zenodo.7803548",
-        "metadata": {
-          "title": "Participatory Design in Academic Libraries: New Reports and Findings",
-          "doi": "10.5281/zenodo.7803548",
-          "publication_date": "2014-02-01",
-          "description": "<p>This report looks at how staff at eight academic institutions gained new insight about how students and faculty use their libraries, and how the staff are using these findings to improve library technologies, space, and services.</p>\n\n<p>Participatory design is a relatively recent approach to understanding library user behavior. It is based on techniques used in anthropological and ethnographic observation. The report&rsquo;s editor, anthropologist&nbsp;<a href=\"https://sr.ithaka.org/people/nancy-fried-foster/\">Nancy Fried Foster</a>, led several participatory design workshops for CLIR from 2007 to 2013.</p>\n\n<p>The report is based on a series of presentations at the second CLIR Seminar on Participatory Design of Academic Libraries, held at the University of Rochester&rsquo;s River Campus June 5-7, 2013. Chapters focus on projects at the University of Colorado, Boulder; Colby College; University of Connecticut; Columbia University; Rush University Medical Center; Purdue University; Northwestern University; and the University of Rochester. David Lindahl, of the University of Missouri-Kansas City, provided the keynote. It is the second of two volumes published by CLIR that focus on participatory design. The first,&nbsp;<a href=\"https://doi.org/10.5281/zenodo.7799833\">Participatory Design in Academic Libraries: Methods, Findings, and Implementations</a>, was published in October 2012.</p>",
-          "access_right": "open",
-          "creators": [
-            {
-              "name": "Foster, Nancy Fried",
-              "affiliation": null
-            }
-          ],
-          "keywords": [
-            "Academic Libraries",
-            "Users (Information)",
-            "Design",
-            "Participation",
-            "Library Services",
-            "Library Administration",
-            "Library Research",
-            "Ethnography",
-            "Observation",
-            "Library Facilities",
-            "Use Studies",
-            "Qualitative Research",
-            "Statistical Analysis",
-            "User Needs (Information)",
-            "Health Sciences",
-            "Administrative Organization",
-            "Space Utilization",
-            "College Students",
-            "Student Participation"
-          ],
-          "resource_type": {
-            "title": "Report",
-            "type": "publication",
-            "subtype": "report"
-          },
-          "license": {
-            "id": "cc-by-4.0"
-          },
-          "communities": [
-            {
-              "id": "clir"
-            }
-          ],
-          "relations": {
-            "version": [
-              {
-                "index": 0,
-                "is_last": true,
-                "parent": {
-                  "pid_type": "recid",
-                  "pid_value": "7803547"
-                }
-              }
-            ]
-          }
-        },
-        "title": "Participatory Design in Academic Libraries: New Reports and Findings",
-        "links": {
-          "self": "https://zenodo.org/api/records/7803548",
-          "self_html": "https://zenodo.org/records/7803548",
-          "preview_html": "https://zenodo.org/records/7803548?preview=1",
-          "doi": "https://doi.org/10.5281/zenodo.7803548",
-          "self_doi": "https://doi.org/10.5281/zenodo.7803548",
-          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7803548",
-          "reserve_doi": "https://zenodo.org/api/records/7803548/draft/pids/doi",
-          "parent": "https://zenodo.org/api/records/7803547",
-          "parent_html": "https://zenodo.org/records/7803547",
-          "parent_doi": "https://doi.org/10.5281/zenodo.7803547",
-          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7803547",
-          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:7803548/manifest",
-          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:7803548/sequence/default",
-          "files": "https://zenodo.org/api/records/7803548/files",
-          "media_files": "https://zenodo.org/api/records/7803548/media-files",
-          "thumbnails": {
-            "10": "https://zenodo.org/api/iiif/record:7803548:pub161.pdf/full/%5E10,/0/default.jpg",
-            "50": "https://zenodo.org/api/iiif/record:7803548:pub161.pdf/full/%5E50,/0/default.jpg",
-            "100": "https://zenodo.org/api/iiif/record:7803548:pub161.pdf/full/%5E100,/0/default.jpg",
-            "250": "https://zenodo.org/api/iiif/record:7803548:pub161.pdf/full/%5E250,/0/default.jpg",
-            "750": "https://zenodo.org/api/iiif/record:7803548:pub161.pdf/full/%5E750,/0/default.jpg",
-            "1200": "https://zenodo.org/api/iiif/record:7803548:pub161.pdf/full/%5E1200,/0/default.jpg"
-          },
-          "archive": "https://zenodo.org/api/records/7803548/files-archive",
-          "archive_media": "https://zenodo.org/api/records/7803548/media-files-archive",
-          "latest": "https://zenodo.org/api/records/7803548/versions/latest",
-          "latest_html": "https://zenodo.org/records/7803548/latest",
-          "versions": "https://zenodo.org/api/records/7803548/versions",
-          "draft": "https://zenodo.org/api/records/7803548/draft",
-          "access_links": "https://zenodo.org/api/records/7803548/access/links",
-          "access_grants": "https://zenodo.org/api/records/7803548/access/grants",
-          "access_users": "https://zenodo.org/api/records/7803548/access/users",
-          "access_request": "https://zenodo.org/api/records/7803548/access/request",
-          "access": "https://zenodo.org/api/records/7803548/access",
-          "communities": "https://zenodo.org/api/records/7803548/communities",
-          "communities-suggestions": "https://zenodo.org/api/records/7803548/communities-suggestions",
-          "requests": "https://zenodo.org/api/records/7803548/requests"
-        },
-        "updated": "2024-07-12T09:01:09.949003+00:00",
-        "recid": "7803548",
-        "revision": 5,
-        "files": [
-          {
-            "id": "d0c5e0b0-e9a7-4c37-a39c-bd661cdf2882",
-            "key": "pub161.pdf",
-            "size": 4694414,
-            "checksum": "md5:9b414915cd0ea7b2f620bcc6f90b08c8",
-            "links": {
-              "self": "https://zenodo.org/api/records/7803548/files/pub161.pdf/content"
-            }
-          }
-        ],
-        "swh": {},
-        "owners": [
-          {
-            "id": "5103"
-          }
-        ],
-        "status": "published",
-        "stats": {
-          "downloads": 38,
-          "unique_downloads": 38,
-          "views": 34,
-          "unique_views": 34,
-          "version_downloads": 38,
-          "version_unique_downloads": 38,
-          "version_unique_views": 34,
-          "version_views": 34
+          "downloads": 45,
+          "unique_downloads": 44,
+          "views": 36,
+          "unique_views": 35,
+          "version_downloads": 45,
+          "version_unique_downloads": 44,
+          "version_unique_views": 35,
+          "version_views": 36
         },
         "state": "done",
         "submitted": true
@@ -1437,7 +1509,7 @@
     }
   },
   "links": {
-    "self": "https://zenodo.org/api/records?page=1&q=communities%3Aclir&size=10&sort=bestmatch",
-    "next": "https://zenodo.org/api/records?page=2&q=communities%3Aclir&size=10&sort=bestmatch"
+    "self": "https://zenodo.org/api/records?page=1&q=communities%3Aclir&size=10&sort=mostrecent",
+    "next": "https://zenodo.org/api/records?page=2&q=communities%3Aclir&size=10&sort=mostrecent"
   }
 }
