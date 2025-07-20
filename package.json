@@ -11,7 +11,7 @@
     "start": "run-p start:*",
     "start:eleventy": "eleventy --serve",
     "start:postcss": "postcss src/assets/css/*.css --dir _site --watch",
-    "build": "eleventy",
+    "build": "run-p build:*",
     "build:css": "postcss src/assets/css/*.css -o _site/assets/css/style.css",
     "build:eleventy": "eleventy"
   },
