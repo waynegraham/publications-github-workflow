@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@config '../../tailwind.config.js';
+
 .filters {
   margin-bottom: 1rem;
   display: flex;

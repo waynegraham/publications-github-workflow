@@ -16,7 +16,8 @@ layout: default
     {% endif %}
 
     {% if thumbnail %}
-      <img
+      <img 
+        eleventy:widths="200,600"
         src="{{ thumbnail }}"
         alt="Thumbnail for {{ title }}"
         class="mt-4 w-full max-w-md rounded shadow"
